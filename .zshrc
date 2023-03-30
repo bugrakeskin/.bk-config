@@ -1,9 +1,7 @@
-ZDOTDIR=/home/ubuntu/github/.bk-config/
-export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 # Adds fm6000 fetch app
 fm6000 -d "Kubix Cloud" -r -c "random" 
 # adds figlet app
-figlet -f small made by Buğra Keskin
+figlet -f small made by BK
 
  # adds default ssh key for ansible, disable for other VM's
 
@@ -128,7 +126,7 @@ alias findbig="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h | batcat"
 alias exit=" fm6000 -s Good-Bye! && exit"
 
-
+export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
 
 PS1=$'\n\n\n\n\n\n\n\n\n\n\n\n\n\n\e[14A'"$PS1"
