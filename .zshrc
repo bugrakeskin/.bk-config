@@ -125,7 +125,7 @@ alias ohmyzsh="micro ~/.zshrc"
 alias findbig="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h | batcat"
 alias exit=" fm6000 -s Good-Bye! && exit"
-
+alias reboot="sudo reboot"
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
 
