@@ -2,7 +2,7 @@
 # Adds fm6000 fetch app
 fm6000 -d "Kubix Cloud" -r -c "random" 
 # adds figlet app
-#figlet -f small  Kubix Cloud
+figlet -f small made by Buğra Keskin
 
  # adds default ssh key for ansible, disable for other VM's
 
