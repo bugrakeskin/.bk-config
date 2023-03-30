@@ -1,4 +1,5 @@
-
+ZDOTDIR=/home/ubuntu/github/.bk-config/
+export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 # Adds fm6000 fetch app
 fm6000 -d "Kubix Cloud" -r -c "random" 
 # adds figlet app
@@ -91,8 +92,7 @@ plugins=(git z kubectl extract sudo zsh-interactive-cd ubuntu history debian com
 #export dump files
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST 
 source $ZSH/oh-my-zsh.sh
-ZDOTDIR=/home/ubuntu/github/.bk-config/
-export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
