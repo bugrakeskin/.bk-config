@@ -67,7 +67,7 @@ format = '[ $hostname ]($style)'
 [username]
 style_user= "fg:white"
 style_root = "fg:black bg:blue"
-format = '[ $user  Kubix Cloud אּ BK]($style)'
+format = '[ $user  Kubix Cloud  煉 BK]($style)'
 
 [directory]
 style = "fg:black bg:yellow"
