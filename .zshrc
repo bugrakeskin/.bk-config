@@ -1,6 +1,6 @@
 # v107
 # Adds fm6000 fetch app
-fm6000 -d "🅒KubixCloud" -r -c "random" 
+fm6000 -d "🅒Kubix Cloud" -r -c "random" 
 # adds figlet app
 #figlet -f small made by BK
 
