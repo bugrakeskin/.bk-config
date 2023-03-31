@@ -1,3 +1,4 @@
+# v107
 # Adds fm6000 fetch app
 fm6000 -d "Kubix Cloud" -r -c "random" 
 # adds figlet app
@@ -126,7 +127,7 @@ alias findbig="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h | batcat"
 alias exit=" fm6000 -s Good-Bye! && exit"
 alias update="cd '$HOME/github/.bk-config/' && git pull && cd '$HOME'"
-
+alias yabs="curl -sL yabs.sh | bash -s -- -fg"
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
 
