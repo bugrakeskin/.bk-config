@@ -125,7 +125,7 @@ alias ohmyzsh="micro ~/github/.bk-config/.zshrc"
 alias findbig="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h | batcat"
 alias exit=" fm6000 -s Good-Bye! && exit"
-alias update="cd '$HOME/github/.bk-config/' && git pull && cd '~'"
+alias update="cd '$HOME/github/.bk-config/' && git pull && cd '$HOME'"
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
