@@ -107,7 +107,7 @@ format = '[$all_status$ahead_behind ]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:white"
+style = "fg:bright-yellow"
 format = '[  $time ]($style)'
 
 [cmd_duration]
