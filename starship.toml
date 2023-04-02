@@ -6,6 +6,16 @@ $directory\
 $git_branch\
 $git_status\
 $java\
+$julia\
+$kotlin\
+$lua\
+$nodejs\
+$nim\
+$python\
+$rlang\
+$ruby\
+$rust\
+$scala\
 [](fg:bright-purple bg:black)\
 [](fg:black bg:cyan)\
 $hostname\
@@ -18,16 +28,7 @@ $elm\
 $golang\
 $haskell\
 
-$julia\
-$kotlin\
-$lua\
-$nodejs\
-$nim\
-$python\
-$rlang\
-$ruby\
-$rust\
-$scala\
+
 
 $character
 """
