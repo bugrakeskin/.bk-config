@@ -68,12 +68,12 @@ format = '[ $hostname ]($style)'
 [username]
 style_user= "fg:white"
 style_root = "fg:black bg:blue"
-format = '[ $user  Kubix Cloud  v107]($style)'
+format = '[ $user  Kubix Cloud  v108]($style)'
 
 [directory]
 style = "fg:black bg:yellow"
 truncate_to_repo = false
-read_only = ""
+read_only = " "
 format = "[$read_only $path ]($style)"
 truncation_length = 4
 truncation_symbol = " …/ " 
