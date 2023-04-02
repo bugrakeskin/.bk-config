@@ -5,17 +5,6 @@ $directory\
 [](fg:black bg:bright-purple)\
 $git_branch\
 $git_status\
-$java\
-$julia\
-$kotlin\
-$lua\
-$nodejs\
-$nim\
-$python\
-$rlang\
-$ruby\
-$rust\
-$scala\
 [](fg:bright-purple bg:black)\
 [](fg:black bg:cyan)\
 $hostname\
@@ -27,7 +16,17 @@ $elixir\
 $elm\
 $golang\
 $haskell\
-
+$java\
+$julia\
+$kotlin\
+$lua\
+$nodejs\
+$nim\
+$python\
+$rlang\
+$ruby\
+$rust\
+$scala\
 
 
 $character
