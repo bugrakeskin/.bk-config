@@ -12,6 +12,9 @@ echo '\e[5 q'
 # Add a line before the output
 preexec() { print "" }
 
+su() {
+  /usr/bin/su -s /usr/bin/zsh $*
+}
 #add line after command
 #precmd() { print "" }
 
