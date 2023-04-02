@@ -1,7 +1,7 @@
 format = """
 [](fg:yellow)\
-$directory\
 $username\
+$directory\
 [](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
 $git_branch\
@@ -65,15 +65,10 @@ ssh_only = false
 style = "fg:black bg:cyan"
 format = '[ $hostname ]($style)'
 
-[custom]
-style_user= "fg:white"
-style_root = "fg:black bg:blue"
-format = '[ $user  Kubix Cloud  v110]($style)'
-
 [username]
-style_user= "fg:white"
-style_root = "fg:black bg:blue"
-format = '[ $user  Kubix Cloud  v110]($style)'
+style_user= "fg:black"
+style_root = "fg:black bg:yellow"
+format = '[ $user]($style)'
 
 [directory]
 style = "fg:black bg:yellow"
@@ -115,7 +110,7 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:bright-purple"
-format = '[  $time ]($style)'
+format = '[  $time -   Kubix Cloud  v110]($style)'
 
 [cmd_duration]
 style = "yellow"
