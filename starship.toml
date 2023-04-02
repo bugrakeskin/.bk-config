@@ -1,6 +1,7 @@
 format = """
 [](fg:yellow)\
 $directory\
+$username\
 [](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
 $git_branch\
@@ -37,7 +38,7 @@ $cmd_duration\
 $memory_usage\
 $docker_context\
 $time\
-$username\
+$kubix\
 $localip\
 
 """
@@ -64,6 +65,10 @@ ssh_only = false
 style = "fg:black bg:cyan"
 format = '[ $hostname ]($style)'
 
+[kubix]
+style_user= "fg:white"
+style_root = "fg:black bg:blue"
+format = '[ $user  Kubix Cloud  v110]($style)'
 
 [username]
 style_user= "fg:white"
