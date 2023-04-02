@@ -7,9 +7,9 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:bright-purple bg:black)\
-[](fg:black bg:cyan)\
+[](fg:black bg:green)\
 $hostname\
-[](fg:cyan )\
+[](fg:green )\
 
 $c\
 $dart\
@@ -109,7 +109,7 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:bright-purple"
-format = '[  $time -  Kubix Cloud  v111]($style)'
+format = '[  $time -  Kubix Cloud  v112]($style)'
 
 [cmd_duration]
 style = "yellow"
@@ -118,7 +118,7 @@ format = '[  $duration ]($style)'
 [memory_usage]
 disabled = false
 threshold = 80
-symbol = ' '
+symbol = ''
 style = 'yellow'
 format = '[ $symbol $ram]($style)'
 
