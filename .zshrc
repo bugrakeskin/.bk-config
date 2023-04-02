@@ -12,9 +12,6 @@ echo '\e[5 q'
 # Add a line before the output
 preexec() { print "" }
 
-su() {
-  /usr/bin/su -s /usr/bin/zsh $*
-}
 #add line after command
 #precmd() { print "" }
 
@@ -131,6 +128,7 @@ alias treeh="tree --du -h | batcat"
 alias exit=" fm6000 -s Good-Bye! && exit"
 alias update="cd '$HOME/github/.bk-config/' && git pull && cd '$HOME'"
 alias yabs="curl -sL yabs.sh | bash -s -- -fg"
+alias reboot="sudo reboot"
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
 
