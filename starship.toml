@@ -38,7 +38,7 @@ $cmd_duration\
 $memory_usage\
 $docker_context\
 $time\
-$kubix\
+$custom\
 $localip\
 
 """
@@ -65,7 +65,7 @@ ssh_only = false
 style = "fg:black bg:cyan"
 format = '[ $hostname ]($style)'
 
-[kubix]
+[custom]
 style_user= "fg:white"
 style_root = "fg:black bg:blue"
 format = '[ $user  Kubix Cloud  v110]($style)'
