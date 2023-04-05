@@ -1,9 +1,9 @@
 format = """
-[    ](fg:blue)\
+[ ](fg:blue)\
 $username\
-[  ](fg:yellow)\
+[](fg:yellow)\
 $directory\
-[  ](fg:yellow bg:black)\
+[](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
 $git_branch\
 $git_status\
