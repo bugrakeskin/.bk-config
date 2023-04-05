@@ -1,8 +1,9 @@
 format = """
-[](fg:yellow)\
+[](fg:blue)\
 $username\
+[](fg:yellow)\
 $directory\
-[](fg:yellow bg:black)\
+[ ](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
 $git_branch\
 $git_status\
@@ -66,8 +67,8 @@ style = "fg:black bg:green"
 format = '[ $hostname ]($style)'
 
 [username]
-style_user= "fg:black bg:yellow"
-style_root = "fg:black bg:yellow"
+style_user= "fg:black bg:blue"
+style_root = "fg:black bg:blue"
 format = '[ $user]($style)'
 
 [directory]
@@ -76,7 +77,7 @@ truncate_to_repo = false
 read_only = " "
 format = "[$read_only $path ]($style)"
 truncation_length = 4
-truncation_symbol = " …/ " 
+truncation_symbol = " …/ " 
 
 [directory.substitutions]
 "~" = " ~"
