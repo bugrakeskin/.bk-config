@@ -1,8 +1,8 @@
 format = """
 [](fg:blue)\
 $username\
-[](fg:blue bg:yellow)\
 [](fg:yellow bg:blue)\
+[](fg:blue bg:yellow)\
 $directory\
 [](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
