@@ -53,8 +53,8 @@ error_symbol = "[](red)"
 
 [os]
 format = "[ $os]($style)"
-style = "fg:black bg:green"
-disabled = false
+style = "fg:black bg:blue"
+disabled = true
 
 
 [localip]
@@ -65,12 +65,12 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:black bg:bright-green"
+style = "fg:black bg:blue"
 format = '[歷$hostname ]($style)'
 
 [username]
-style_user= "fg:black bg:bright-green"
-style_root = "fg:black bg:bright-green"
+style_user= "fg:black bg:blue"
+style_root = "fg:black bg:blue"
 format = '[ $user ]($style)'
 
 [directory]
