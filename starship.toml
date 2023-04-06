@@ -1,11 +1,11 @@
 format = """
 [](fg:green)\
 [ ](fg:black bg:green)\
-[](fg:green bg:black)\
+[](fg:bright-blue bg:black)\
 [](fg:black bg:green)\
 $username\
 $hostname\
-[](fg:green bg:yellow)\
+[](fg:blue bg:yellow)\
 $directory\
 [](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
