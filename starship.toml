@@ -3,7 +3,7 @@ format = """
 [ ](fg:black bg:#EEEEEE)\
 [](fg:#EEEEEE bg:black)\
 [](fg:black bg:#393E46)\
-[](fg:#EEEEEE bg:#393E46)\
+[](fg:#FFD369 bg:#393E46)\
 $username\
 [](fg:#393E46 bg:#2e3440)\
 [](fg:#2e3440 bg:#393E46)\
@@ -74,7 +74,7 @@ format = '[$hostname ]($style)'
 [username]
 style_user= "fg:#EEEEEE bg:#393E46"
 style_root = "fg:#EEEEEE bg:#393E46"
-format = '[$user]($style)'
+format = '[ $user]($style)'
 
 [directory]
 style = "fg:#4C4B16 bg:#FFD369"
