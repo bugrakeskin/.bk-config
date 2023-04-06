@@ -2,17 +2,17 @@ format = """
 [](fg:#F7F1E5)\
 [ ](fg:black bg:#F7F1E5)\
 [](fg:#F7F1E5 bg:black)\
-[](fg:black bg:#40513B)\
+[](fg:black bg:#CCD5AE)\
 $username\
-[](fg:#40513B bg:black)\
-[](fg:black bg:#40513B)\
+[](fg:#CCD5AE bg:black)\
+[](fg:black bg:#CCD5AE)\
 $hostname\
-[](fg:#40513B bg:#E7B10A)\
+[](fg:#CCD5AE bg:#E7B10A)\
 $directory\
-[](fg:#E7B10A bg:#F2921D)\
+[](fg:#E7B10A bg:#F4B183)\
 $git_branch\
 $git_status\
-[](fg:#F2921D)\
+[](fg:#F4B183)\
 
 $c\
 $dart\
@@ -66,12 +66,12 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:#F7F1E5 bg:#40513B"
+style = "fg:#F7F1E5 bg:#CCD5AE"
 format = '[ $hostname ]($style)'
 
 [username]
-style_user= "fg:#F7F1E5 bg:#40513B"
-style_root = "fg:#F7F1E5 bg:#40513B"
+style_user= "fg:#F7F1E5 bg:#CCD5AE"
+style_root = "fg:#F7F1E5 bg:#CCD5AE"
 format = '[ $user ]($style)'
 
 [directory]
@@ -93,7 +93,7 @@ truncation_symbol = " …/ "
 
 [git_branch]
 symbol = "  "
-style = "fg:#4C4B16 bg:#F2921D"
+style = "fg:#4C4B16 bg:#F4B183"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
@@ -106,7 +106,7 @@ modified = " $count "
 staged = " $count "
 renamed = " $count "
 untracked = " $count"
-style = "fg:#4C4B16 bg:#F2921D"
+style = "fg:#4C4B16 bg:#F4B183"
 format = '[$all_status$ahead_behind ]($style)'
 
 [time]
