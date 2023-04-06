@@ -1,7 +1,7 @@
 format = """
-[](fg:#222831)\
-[ ](fg:black bg:#222831)\
-[](fg:#222831 bg:black)\
+[](fg:#EEEEEE)\
+[ ](fg:black bg:#EEEEEE)\
+[](fg:#EEEEEE bg:black)\
 [](fg:black bg:#393E46)\
 $username\
 [](fg:#393E46 bg:black)\
@@ -66,12 +66,12 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:#222831 bg:#393E46"
+style = "fg:#EEEEEE bg:#393E46"
 format = '[ $hostname ]($style)'
 
 [username]
-style_user= "fg:#222831 bg:#393E46"
-style_root = "fg:#222831 bg:#393E46"
+style_user= "fg:#EEEEEE bg:#393E46"
+style_root = "fg:#EEEEEE bg:#393E46"
 format = '[ $user ]($style)'
 
 [directory]
@@ -112,7 +112,7 @@ format = '[$all_status$ahead_behind ]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:#222831"
+style = "fg:#EEEEEE"
 format = '[  $time  Kubix Cloud  v123]($style)'
 
 [cmd_duration]
