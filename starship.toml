@@ -2,10 +2,10 @@ format = """
 [](fg:#F7F1E5)\
 [ ](fg:black bg:#F7F1E5)\
 [](fg:#F7F1E5 bg:black)\
-[](fg:black bg:#898121)\
+[](fg:black bg:#400E32)\
 $username\
-[](fg:#898121 bg:black)\
-[](fg:black bg:#898121)\
+[](fg:#400E32 bg:black)\
+[](fg:black bg:#400E32)\
 $hostname\
 [](fg:#898121 bg:#E7B10A)\
 $directory\
@@ -66,12 +66,12 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:#F7F1E5 bg:#898121"
+style = "fg:#F7F1E5 bg:#400E32"
 format = '[ $hostname ]($style)'
 
 [username]
-style_user= "fg:#F7F1E5 bg:#898121"
-style_root = "fg:#F7F1E5 bg:#898121"
+style_user= "fg:#F7F1E5 bg:#400E32"
+style_root = "fg:#F7F1E5 bg:#400E32"
 format = '[ $user ]($style)'
 
 [directory]
