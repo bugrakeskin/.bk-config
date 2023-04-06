@@ -5,9 +5,9 @@ format = """
 [](fg:black bg:#898121)\
 $username\
 $hostname\
-[](fg:#19376D bg:yellow)\
+[](fg:#898121 bg:E7B10A)\
 $directory\
-[](fg:yellow bg:bright-purple)\
+[](fg:E7B10A bg:bright-purple)\
 $git_branch\
 $git_status\
 [](fg:bright-purple)\
@@ -68,12 +68,12 @@ style = "fg:white bg:#898121"
 format = '[$hostname ]($style)'
 
 [username]
-style_user= "fg:white bg:#898121"
-style_root = "fg:white bg:#898121"
+style_user= "fg:#4C4B16 bg:#898121"
+style_root = "fg:#4C4B16 bg:#898121"
 format = '[ $user]($style)'
 
 [directory]
-style = "fg:black bg:yellow"
+style = "fg:#4C4B16 bg:E7B10A"
 truncate_to_repo = false
 read_only = " "
 format = "[$read_only $path ]($style)"
