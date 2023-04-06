@@ -2,12 +2,12 @@ format = """
 [](fg:#F7F1E5)\
 [ ](fg:black bg:#F7F1E5)\
 [](fg:#F7F1E5 bg:black)\
-[](fg:black bg:#400E32)\
+[](fg:black bg:#40513B)\
 $username\
-[](fg:#400E32 bg:black)\
-[](fg:black bg:#400E32)\
+[](fg:#40513B bg:black)\
+[](fg:black bg:#40513B)\
 $hostname\
-[](fg:#898121 bg:#E7B10A)\
+[](fg:#40513B bg:#E7B10A)\
 $directory\
 [](fg:#E7B10A bg:#F2921D)\
 $git_branch\
@@ -66,12 +66,12 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:#F7F1E5 bg:#400E32"
+style = "fg:#F7F1E5 bg:#40513B"
 format = '[ $hostname ]($style)'
 
 [username]
-style_user= "fg:#F7F1E5 bg:#400E32"
-style_root = "fg:#F7F1E5 bg:#400E32"
+style_user= "fg:#F7F1E5 bg:#40513B"
+style_root = "fg:#F7F1E5 bg:#40513B"
 format = '[ $user ]($style)'
 
 [directory]
