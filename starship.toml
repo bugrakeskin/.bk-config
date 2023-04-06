@@ -1,7 +1,7 @@
 format = """
-[](fg:white)\
+[](fg:green)\
 $os\
-[](fg:white bg:cyan)\
+[](fg:white bg:bright-green)\
 $username\
 $hostname\
 [](fg:cyan bg:yellow)\
@@ -52,7 +52,7 @@ error_symbol = "[](red)"
 
 [os]
 format = "[ $os]($style)"
-style = "fg:black bg:white"
+style = "fg:black bg:green"
 disabled = false
 
 
@@ -64,12 +64,12 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:bright-black bg:cyan"
+style = "fg:bright-black bg:bright-green"
 format = '[$hostname ]($style)'
 
 [username]
-style_user= "fg:black bg:cyan"
-style_root = "fg:black bg:cyan"
+style_user= "fg:black bg:bright-green"
+style_root = "fg:black bg:bright-green"
 format = '[ $user]($style)'
 
 [directory]
