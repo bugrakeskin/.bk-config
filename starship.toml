@@ -70,7 +70,7 @@ format = '[$hostname]($style)'
 [username]
 style_user= "fg:black bg:bright-green"
 style_root = "fg:black bg:bright-green"
-format = '[$user]($style)'
+format = '[$user  ]($style)'
 
 [directory]
 style = "fg:black bg:yellow"
@@ -111,7 +111,7 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:bright-white"
-format = '[  $time -  Kubix Cloud  v119]($style)'
+format = '[  $time  Kubix Cloud  v120]($style)'
 
 [cmd_duration]
 style = "yellow"
