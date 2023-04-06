@@ -4,7 +4,7 @@ $os\
 [](fg:white bg:cyan)\
 $username\
 $hostname\
-[](fg:yellow bg:cyan)\
+[](fg:cyan bg:yellow)\
 $directory\
 [](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
@@ -53,7 +53,7 @@ success_symbol = "[🏄](yellow)"
 error_symbol = "[](red)"
 
 [os]
-format = "[$os]($style)"
+format = "[ $os]($style)"
 style = "fg:black bg:white"
 disabled = false
 
