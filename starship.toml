@@ -1,13 +1,10 @@
 format = """
 [](fg:white)\
 $os\
-[](fg:white bg:white)\
-[](fg:cyan bg:green)\
+[](fg:cyan bg:white)\
 $username\
 $hostname\
-[](fg:cyan bg:cyan)\
 [](fg:cyan bg:green)\
-
 [](fg:green bg:green )\
 [](fg:yellow bg:green)\
 $directory\
@@ -71,8 +68,8 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:black bg:green"
-format = '[@$hostname ]($style)'
+style = "fg:bold black bg:cyan"
+format = '[$hostname ]($style)'
 
 [username]
 style_user= "fg:black bg:cyan"
