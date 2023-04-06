@@ -67,11 +67,11 @@ disabled = true
 [hostname]
 ssh_only = false
 style = "fg:#F7F1E5 bg:#898121"
-format = '[$hostname ]($style)'
+format = '[ $hostname ]($style)'
 
 [username]
-style_user= "fg:#4C4B16 bg:#898121"
-style_root = "fg:#4C4B16 bg:#898121"
+style_user= "fg:#F7F1E5 bg:#898121"
+style_root = "fg:#F7F1E5 bg:#898121"
 format = '[ $user ]($style)'
 
 [directory]
