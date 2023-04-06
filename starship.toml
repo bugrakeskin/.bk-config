@@ -1,11 +1,11 @@
 format = """
-[](fg:red)\
-[ ](fg:white bg:red)\
-[](fg:red bg:black)\
-[](fg:black bg:4)\
+[](fg:#0B2447)\
+[ ](fg:white bg:#0B2447)\
+[](fg:#0B2447 bg:black)\
+[](fg:black bg:#19376D)\
 $username\
 $hostname\
-[](fg:blue bg:yellow)\
+[](fg:#19376D bg:yellow)\
 $directory\
 [](fg:yellow bg:bright-purple)\
 $git_branch\
@@ -64,12 +64,12 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:black bg:4"
+style = "fg:black bg:#19376D"
 format = '[$hostname ]($style)'
 
 [username]
-style_user= "fg:black bg:4"
-style_root = "fg:black bg:4"
+style_user= "fg:black bg:#19376D"
+style_root = "fg:black bg:#19376D"
 format = '[ $user]($style)'
 
 [directory]
