@@ -66,7 +66,7 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:#E7B10A bg:#898121"
+style = "fg:#F7F1E5 bg:#898121"
 format = '[ $hostname ]($style)'
 
 [username]
@@ -113,7 +113,7 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:#F7F1E5"
-format = '[  $time  Kubix Cloud  v121]($style)'
+format = '[  $time  Kubix Cloud  v123]($style)'
 
 [cmd_duration]
 style = "yellow"
