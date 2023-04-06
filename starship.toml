@@ -7,8 +7,7 @@ $username\
 $hostname\
 [](fg:blue bg:yellow)\
 $directory\
-[](fg:yellow bg:black)\
-[](fg:black bg:bright-purple)\
+[](fg:yellow bg:bright-purple)\
 $git_branch\
 $git_status\
 [](fg:bright-purple)\
