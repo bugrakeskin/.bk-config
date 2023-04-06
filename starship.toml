@@ -11,8 +11,6 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:bright-purple bg:black)\
-[](fg:black bg:green)\
-
 
 $c\
 $dart\
@@ -113,7 +111,7 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:bright-white"
-format = '[  $time -  Kubix Cloud  v112]($style)'
+format = '[  $time -  Kubix Cloud  v119]($style)'
 
 [cmd_duration]
 style = "yellow"
