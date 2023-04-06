@@ -2,7 +2,10 @@ format = """
 [](fg:cyan)\
 $username\
 [](fg:cyan bg:cyan)\
-[](fg:cyan bg:yellow)\
+[](fg:cyan bg:green)\
+$hostname\
+[](fg:green bg:green )\
+[](fg:yellow bg:green)\
 $directory\
 [](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
@@ -10,8 +13,7 @@ $git_branch\
 $git_status\
 [](fg:bright-purple bg:black)\
 [](fg:black bg:green)\
-$hostname\
-[](fg:green )\
+
 
 $c\
 $dart\
