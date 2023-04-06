@@ -64,7 +64,7 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:green bg:cyan"
+style = "fg:bright-black bg:cyan"
 format = '[$hostname ]($style)'
 
 [username]
