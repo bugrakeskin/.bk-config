@@ -1,8 +1,8 @@
 format = """
 [](fg:bright-blue)\
 $username\
-[](fg:bright-blue bg:blue)\
-[](fg:bright-blue bg:yellow)\
+[](fg:cyan bg:blue)\
+[](fg:cyan bg:yellow)\
 $directory\
 [](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
@@ -68,8 +68,8 @@ style = "fg:black bg:green"
 format = '[ $hostname ]($style)'
 
 [username]
-style_user= "fg:black bg:blue"
-style_root = "fg:black bg:blue"
+style_user= "fg:black bg:cyan"
+style_root = "fg:black bg:cyan"
 format = '[ $user]($style)'
 
 [directory]
