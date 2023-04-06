@@ -66,12 +66,12 @@ disabled = true
 [hostname]
 ssh_only = false
 style = "fg:black bg:blue"
-format = '[歷$hostname ]($style)'
+format = '[$hostname ]($style)'
 
 [username]
 style_user= "fg:black bg:blue"
 style_root = "fg:black bg:blue"
-format = '[ $user ]($style)'
+format = '[ $user]($style)'
 
 [directory]
 style = "fg:black bg:yellow"
