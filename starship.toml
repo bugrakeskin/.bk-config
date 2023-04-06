@@ -104,7 +104,7 @@ modified = " $count "
 staged = " $count "
 renamed = " $count "
 untracked = " $count"
-style = "fg:black bg:bright-purple"
+style = "fg:#F7F1E5 bg:#4C4B16"
 format = '[$all_status$ahead_behind ]($style)'
 
 [time]
