@@ -93,7 +93,7 @@ truncation_symbol = " …/ "
 
 [git_branch]
 symbol = "  "
-style = "fg:#E7B10A bg:#4C4B16"
+style = "fg:#F7F1E5 bg:#4C4B16"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
