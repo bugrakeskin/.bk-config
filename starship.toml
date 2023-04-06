@@ -4,9 +4,7 @@ $os\
 [](fg:white bg:cyan)\
 $username\
 $hostname\
-[](fg:cyan bg:green)\
-[](fg:green bg:green )\
-[](fg:yellow bg:green)\
+[](fg:yellow bg:cyan)\
 $directory\
 [](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
@@ -55,7 +53,7 @@ success_symbol = "[🏄](yellow)"
 error_symbol = "[](red)"
 
 [os]
-format = "[ $os]($style)"
+format = "[$os]($style)"
 style = "fg:black bg:white"
 disabled = false
 
@@ -74,7 +72,7 @@ format = '[$hostname ]($style)'
 [username]
 style_user= "fg:black bg:cyan"
 style_root = "fg:black bg:cyan"
-format = '[$user]($style)'
+format = '[ $user]($style)'
 
 [directory]
 style = "fg:black bg:yellow"
