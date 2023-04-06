@@ -1,8 +1,8 @@
 format = """
 [](fg:green)\
 $os\
-[](fg:black bg:bright-green)\
-[](fg:black bg:bright-green)\
+[  ](bold #000000 bg:#ff33cc)\
+[](bg:#000000 fg:#ff33cc)\
 $username\
 $hostname\
 [](fg:green bg:yellow)\
