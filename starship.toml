@@ -2,7 +2,7 @@ format = """
 [](fg:#0B2447)\
 [ ](fg:white bg:#0B2447)\
 [](fg:#0B2447 bg:black)\
-[](fg:black bg:#19376D)\
+[](fg:white bg:#19376D)\
 $username\
 $hostname\
 [](fg:#19376D bg:yellow)\
