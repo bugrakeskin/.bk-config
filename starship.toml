@@ -7,10 +7,10 @@ $username\
 $hostname\
 [](fg:#898121 bg:#E7B10A)\
 $directory\
-[](fg:#E7B10A bg:bright-purple)\
+[](fg:#E7B10A bg:#4C4B16)\
 $git_branch\
 $git_status\
-[](fg:bright-purple)\
+[](fg:#4C4B16)\
 
 $c\
 $dart\
@@ -64,7 +64,7 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:white bg:#898121"
+style = "fg:#F7F1E5 bg:#898121"
 format = '[$hostname ]($style)'
 
 [username]
@@ -91,7 +91,7 @@ truncation_symbol = " …/ "
 
 [git_branch]
 symbol = "  "
-style = "fg:black bg:bright-purple"
+style = "fg:#F7F1E5 bg:#4C4B16"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
