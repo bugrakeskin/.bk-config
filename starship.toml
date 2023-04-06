@@ -7,7 +7,7 @@ format = """
 $username\
 [](fg:#393E46 bg:#2e3440)\
 [](fg:#2e3440 bg:#393E46)\
-[識](fg:#EEEEEE bg:#393E46)\
+[識 樂 ](fg:#EEEEEE bg:#393E46)\
 $hostname\
 [](fg:#393E46 bg:#FFD369)\
 $directory\
