@@ -4,6 +4,8 @@ format = """
 [](fg:#F7F1E5 bg:black)\
 [](fg:black bg:#898121)\
 $username\
+[](fg:#E7B10A bg:black)\
+[](fg:black bg:#898121)\
 $hostname\
 [](fg:#898121 bg:#E7B10A)\
 $directory\
