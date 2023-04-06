@@ -3,6 +3,7 @@ format = """
 [ ](fg:black bg:#EEEEEE)\
 [](fg:#EEEEEE bg:black)\
 [](fg:black bg:#393E46)\
+[](fg:#EEEEEE bg:#393E46)\
 $username\
 [](fg:#393E46 bg:#2e3440)\
 [](fg:#2e3440 bg:#393E46)\
