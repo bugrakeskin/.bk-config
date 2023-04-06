@@ -47,7 +47,7 @@ $localip\
 continuation_prompt = "[](green)"
 
 [character]
-success_symbol = "[🏄](yellow)"
+success_symbol = "[](yellow)"
 error_symbol = "[](red)"
 
 [os]
@@ -91,7 +91,7 @@ truncation_symbol = " …/ "
 
 [git_branch]
 symbol = "  "
-style = "fg:bright-#F7F1E5 bg:#4C4B16"
+style = "fg:#F7F1E5 bg:#4C4B16"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
