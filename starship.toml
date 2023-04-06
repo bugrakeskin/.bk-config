@@ -2,6 +2,7 @@ format = """
 [](fg:green)\
 $os\
 [](fg:black bg:bright-green)\
+[](fg:black bg:bright-green)\
 $username\
 $hostname\
 [](fg:green bg:yellow)\
