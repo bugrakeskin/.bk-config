@@ -4,7 +4,7 @@ $os\
 [](fg:black bg:bright-green)\
 $username\
 $hostname\
-[](fg:cyan bg:yellow)\
+[](fg:green bg:yellow)\
 $directory\
 [](fg:yellow bg:black)\
 [](fg:black bg:bright-purple)\
