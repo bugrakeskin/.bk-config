@@ -57,10 +57,10 @@ success_symbol = "[🏄](yellow)"
 error_symbol = "[](red)"
 
 [os]
-format = "[$symbol]($style)"
+format = "[ $os]($style)"
 style =	"bold white"
 disabled = false
-symbol= ""
+
 
 [localip]
 ssh_only = false
