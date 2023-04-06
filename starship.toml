@@ -1,6 +1,6 @@
 format = """
 [](fg:green)\
-[  ]( bg:#ff33cc)\
+[  ]( fg: black bg:green)\
 [](fg:black bg:green)\
 $username\
 $hostname\
