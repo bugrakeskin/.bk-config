@@ -1,7 +1,7 @@
 format = """
 [](fg:red)\
-[](fg:black bg:red)\
-[](fg:green bg:black)\
+[](fg:bright-white bg:red)\
+[](fg:red bg:black)\
 [](fg:black bg:blue)\
 $username\
 $hostname\
