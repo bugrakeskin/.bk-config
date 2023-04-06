@@ -1,7 +1,6 @@
 format = """
 [](fg:green)\
-$os\
-[  ](bold #000000 bg:#ff33cc)\
+[  ]( bg:#ff33cc)\
 [](bg:#000000 fg:#ff33cc)\
 $username\
 $hostname\
