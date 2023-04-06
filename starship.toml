@@ -112,7 +112,7 @@ format = '[$all_status$ahead_behind ]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:#EEEEEE"
+style = "fg:#FFD369"
 format = '[  $time  Kubix Cloud  v139]($style)'
 
 [cmd_duration]
