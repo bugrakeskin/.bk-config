@@ -1,7 +1,7 @@
 format = """
 [](fg:pink)\
 $os\
-[](fg:pink)\
+[](fg:pink)\
 [](fg:cyan)\
 $username\
 [](fg:cyan bg:cyan)\
@@ -58,7 +58,7 @@ error_symbol = "[](red)"
 
 [os]
 format = "[ $os]($style)"
-style =	"bold white"
+style = "fg:black bg:pink"
 disabled = false
 
 
