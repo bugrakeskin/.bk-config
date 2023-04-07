@@ -1,8 +1,8 @@
 format = """
 [](fg:#EEEEEE)\
-[ ](fg:black bg:#EEEEEE)\
-[](fg:#EEEEEE bg:black)\
-[](fg:black bg:#393E46)\
+[ ](fg:#393E46 bg:#EEEEEE)\
+[](fg:#EEEEEE bg:#393E46)\
+[](fg:#393E46 bg:#393E46)\
 [](fg:#FFD369 bg:#393E46)\
 $username\
 [](fg:#393E46 bg:#2e3440)\
