@@ -3,10 +3,12 @@ format = """
 [ ](fg:#393E46 bg:#EEEEEE)\
 [](fg:#EEEEEE bg:#393E46)\
 
-[](fg:#FFD369 bg:#393E46)\
+[ ](fg:#FFD369 bg:#393E46)\
 $username\
+
 [](fg:#393E46 bg:#2e3440)\
 [](fg:#2e3440 bg:#393E46)\
+
 [樂](fg:#EEEEEE bg:#393E46)\
 $hostname\
 [](fg:#393E46 bg:#FFD369)\
