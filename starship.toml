@@ -79,7 +79,7 @@ format = '[ $user]($style)'
 [directory]
 style = "fg:#4C4B16 bg:#FFD369"
 truncate_to_repo = false
-read_only = ""
+read_only = " "
 format = "[$read_only $path ]($style)"
 truncation_length = 4
 truncation_symbol = " …/ " 
