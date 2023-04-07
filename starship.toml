@@ -43,6 +43,7 @@ $cmd_duration\
 $memory_usage\
 $docker_context\
 $time\
+[ Kubix Cloud  v140](fg:#EEEEEE)\
 $custom\
 $localip\
 
@@ -116,7 +117,7 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:#FFD369"
-format = '[  $time  Kubix Cloud  v139]($style)'
+format = '[  $time ]($style)'
 
 [cmd_duration]
 style = "yellow"
