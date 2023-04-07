@@ -83,7 +83,7 @@ truncate_to_repo = false
 read_only = " "
 format = "[$read_only $path ]($style)"
 truncation_length = 4
-truncation_symbol = " …/ " 
+truncation_symbol = " … " 
 
 [directory.substitutions]
 "~" = " ~"
