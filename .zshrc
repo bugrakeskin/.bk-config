@@ -2,9 +2,7 @@
 # Adds fm6000 fetch app
 fm6000 -d "KubixCloud" -r -c "random" 
 # adds figlet app
-#figlet -f small made by BK
-
- # adds default ssh key for ansible, disable for other VM's
+##figlet -f small <your note>
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
@@ -132,6 +130,6 @@ alias reboot="sudo reboot"
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
 
-PS1=$'\n\n\n\n\n\n\n\n\n\n\n\n\n\n\e[14A'"$PS1"
+PS1=$'\n\n\n\n\n\n\n\n\n\n\e[10A'"$PS1"
 
 PROMPT_COMMAND='printf "Exit code: %s\n" $?'
