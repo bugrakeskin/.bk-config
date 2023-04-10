@@ -2,9 +2,10 @@
 # Adds fm6000 fetch app
 #fm6000 -d "KubixCloud" -r -c "random" 
 # adds figlet app
+figlet  -f small Welcome  
 echo 'Shell : ZSH with OHMYZSH & plugins with Starship Cross-shell Promt'
-echo 'Designed by: Buğra Keskin - DevOps System Admin v.1.4.7'
-figlet  -f small Welcome to KC 
+echo 'Designed by: Buğra Keskin - DevOps System Admin v.1.4.8'
+figlet  -f small KubixCloud
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
