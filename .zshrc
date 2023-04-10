@@ -3,7 +3,7 @@
 #fm6000 -d "KubixCloud" -r -c "random" 
 # adds figlet app
 figlet  -f small Welcome to KC
-
+echo 'Shell is developed by BK - KC Devops Team '
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
 
