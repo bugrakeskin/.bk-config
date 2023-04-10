@@ -45,16 +45,18 @@ right_format = """
 $cmd_duration\
 $memory_usage\
 $docker_context\
-
+$time\
+[](fg:#CCCCCC bg:#2e3440)\
 [](fg:#2e3440 bg:#CCCCCC)\
 [ ](fg:#EEEEEE bg:#CCCCCC)\
 $localip\
 [](fg:#CCCCCC bg:#2e3440)\
 [](fg:#2e3440 bg:#CCCCCC)\
 
-$time\
+
 [ KubixCloud  v1.4.2](fg:#4C4B16 bg:#CCCCCC)\
-$custom\
+[](fg:#2e3440 bg:#CCCCCC)\
+
 
 
 
