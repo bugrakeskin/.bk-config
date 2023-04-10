@@ -6,11 +6,10 @@ format = """
 [ 樂](fg:#EEEEEE bg:#CCCCCC)\
 $hostname\
 
-
 [](fg:#CCCCCC bg:#2e3440)\
 [](fg:#2e3440 bg:#CCCCCC)\
 
-[ ](fg:#FFD369 bg:#CCCCCC)\
+[ ](fg:#EEEEEE bg:#CCCCCC)\
 $username\
 
 [](fg:#CCCCCC bg:#FFD369)\
@@ -47,13 +46,10 @@ $cmd_duration\
 $memory_usage\
 $docker_context\
 
-[](fg:#EEEEEE bg:#CCCCCC)\
-
 [ 樂](fg:#EEEEEE bg:#CCCCCC)\
 $localip\
-[](fg:#EEEEEE bg:#CCCCCC)\
-
-[ 樂](fg:#EEEEEE bg:#CCCCCC)\
+[](fg:#CCCCCC bg:#2e3440)\
+[](fg:#2e3440 bg:#CCCCCC)\
 
 $time\
 [ KubixCloud  v1.4.2](fg:#EEEEEE)\
