@@ -1,6 +1,6 @@
 format = """
 [](fg:#EEEEEE)\
-[ ](fg:#CCCCCC bg:#EEEEEE)\
+[ ](fg:#4C4B16 bg:#EEEEEE)\
 [](fg:#EEEEEE bg:#CCCCCC)\
 
 [ 樂](fg:#EEEEEE bg:#CCCCCC)\
@@ -73,12 +73,12 @@ disabled = true
 
 [hostname]
 ssh_only = false
-style = "fg:#FFD369 bg:#CCCCCC"
+style = "fg:#4C4B16 bg:#CCCCCC"
 format = '[$hostname]($style)'
 
 [username]
-style_user= "fg:#EEEEEE bg:#CCCCCC"
-style_root = "fg:#EEEEEE bg:#CCCCCC"
+style_user= "fg:#4C4B16 bg:#CCCCCC"
+style_root = "fg:#4C4B16 bg:#CCCCCC"
 format = '[ $user ]($style)'
 
 [directory]
