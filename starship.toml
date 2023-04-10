@@ -10,7 +10,7 @@ $hostname\
 [](fg:#CCCCCC bg:#2e3440)\
 [](fg:#2e3440 bg:#CCCCCC)\
 
-[ ](fg:#FFD369 bg:#CCCCCC)\
+[ ](fg:#EEEEEEbg:#CCCCCC)\
 $username\
 
 [](fg:#CCCCCC bg:#FFD369)\
@@ -47,7 +47,7 @@ $cmd_duration\
 $memory_usage\
 $docker_context\
 $time\
-[ KubixCloud  v1.4.2](fg:#EEEEEE)\
+[ KubixCloud  v1.4.7](fg:#EEEEEE)\
 $custom\
 $localip\
 
