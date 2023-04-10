@@ -46,7 +46,7 @@ $cmd_duration\
 $memory_usage\
 $docker_context\
 
-[ 樂](fg:#EEEEEE bg:#CCCCCC)\
+[ 󱘖](fg:#EEEEEE bg:#CCCCCC)\
 $localip\
 [](fg:#CCCCCC bg:#2e3440)\
 [](fg:#2e3440 bg:#CCCCCC)\
@@ -74,7 +74,7 @@ disabled = true
 [localip]
 ssh_only = false
 style= "fg:#4C4B16 bg:#CCCCCC"
-format = '[|$localipv4 ]($style)'
+format = '[ $localipv4 ]($style)'
 disabled = false
 
 [hostname]
