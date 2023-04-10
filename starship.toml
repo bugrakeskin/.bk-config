@@ -47,19 +47,10 @@ $memory_usage\
 $docker_context\
 [](fg:#CCCCCC)\
 $time\
-
-[](fg:#2e3440 bg:#CCCCCC)\
 [ ](fg:#EEEEEE bg:#CCCCCC)\
 $localip\
-
-[](fg:#2e3440 bg:#CCCCCC)\
-
-
 [ KubixCloud  v1.4.2](fg:#4C4B16 bg:#CCCCCC)\
 [](fg:#2e3440 bg:#CCCCCC)\
-
-
-
 
 """
 
