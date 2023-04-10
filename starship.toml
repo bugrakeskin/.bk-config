@@ -73,9 +73,9 @@ disabled = true
 
 [localip]
 ssh_only = false
-style= "fg:white"
+style= "fg:#4C4B16 bg:#CCCCCC"
 format = '[|$localipv4 ]($style)'
-disabled = true
+disabled = disabled
 
 [hostname]
 ssh_only = false
