@@ -49,7 +49,7 @@ $docker_context\
 $time\
 [ ](fg:#4C4B16 bg:#CCCCCC)\
 $localip\
-[ KubixCloud  v1.4.9](fg:#4C4B16 bg:#CCCCCC)\
+[ KubixCloud  v1.5.0](fg:#4C4B16 bg:#CCCCCC)\
 [](fg:#CCCCCC)\
 
 """
