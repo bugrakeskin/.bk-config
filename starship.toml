@@ -79,7 +79,7 @@ format = '[$hostname]($style)'
 [username]
 style_user= "fg:#EEEEEE bg:#393E46"
 style_root = "fg:#EEEEEE bg:#393E46"
-format = '[$user ]($style)'
+format = '[ $user ]($style)'
 
 [directory]
 style = "fg:#4C4B16 bg:#FFD369"
