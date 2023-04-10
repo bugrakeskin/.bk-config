@@ -2,7 +2,7 @@
 # Adds fm6000 fetch app
 #fm6000 -d "KubixCloud" -r -c "random" 
 # adds figlet app
-figlet  -f small Kubix-Cloud
+figlet  -f terminal Kubix-Cloud
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
