@@ -3,9 +3,9 @@
 # adds figlet app
 figlet  -f small Welcome to
 figlet  -f small KubixCloud
-echo 'Shell : ZSH with OHMYZSH & plugins with Starship Cross-shell Promt'
-echo 'Theme designed by: Buğra Keskin - DevOps System Admin v1.4.9'
-
+echo 'www.kubixcloud.com'
+echo 'Shell: ZSH with OHMYZSH framework and Starship Cross-shell Promt'
+echo 'Theme designed by: Buğra Keskin - DevOps Sysadmin v1.5.0'
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
@@ -130,6 +130,7 @@ alias exit=" fm6000 -s Good-Bye! && exit"
 alias update="cd '$HOME/github/.bk-config/' && git pull && cd '$HOME'"
 alias yabs="curl -sL yabs.sh | bash -s -- -fg"
 alias reboot="sudo reboot"
+
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
 
