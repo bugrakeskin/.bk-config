@@ -6,10 +6,11 @@ format = """
 [ 樂](fg:#EEEEEE bg:#CCCCCC)\
 $hostname\
 
+
 [](fg:#CCCCCC bg:#2e3440)\
 [](fg:#2e3440 bg:#CCCCCC)\
 
-[ ](fg:#EEEEEE bg:#CCCCCC)\
+[ ](fg:#FFD369 bg:#CCCCCC)\
 $username\
 
 [](fg:#CCCCCC bg:#FFD369)\
@@ -45,10 +46,21 @@ right_format = """
 $cmd_duration\
 $memory_usage\
 $docker_context\
-$time\
-[ KubixCloud  v1.4.7](fg:#EEEEEE)\
-$custom\
+
+[](fg:#EEEEEE bg:#CCCCCC)\
+
+[ 樂](fg:#EEEEEE bg:#CCCCCC)\
 $localip\
+
+[](fg:#EEEEEE bg:#CCCCCC)\
+
+[ 樂](fg:#EEEEEE bg:#CCCCCC)\
+
+$time\
+[ KubixCloud  v1.4.2](fg:#EEEEEE)\
+
+
+
 
 """
 
@@ -68,12 +80,12 @@ disabled = true
 ssh_only = false
 style= "fg:white"
 format = '[|$localipv4 ]($style)'
-disabled = true
+disabled = disabled
 
 [hostname]
 ssh_only = false
 style = "fg:#4C4B16 bg:#CCCCCC"
-format = '[$hostname ]($style)'
+format = '[$hostname]($style)'
 
 [username]
 style_user= "fg:#4C4B16 bg:#CCCCCC"
