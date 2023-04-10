@@ -130,6 +130,6 @@ alias reboot="sudo reboot"
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
 
-PS1=$'\n\n\n\n\n\n\n\n\n\n\e[10A'"$PS1"
+PS1=$'\n\n\n\n\e[4A'"$PS1"
 
 PROMPT_COMMAND='printf "Exit code: %s\n" $?'
