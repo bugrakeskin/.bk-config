@@ -51,14 +51,13 @@ $docker_context\
 
 [ 樂](fg:#EEEEEE bg:#CCCCCC)\
 $localip\
-
 [](fg:#EEEEEE bg:#CCCCCC)\
 
 [ 樂](fg:#EEEEEE bg:#CCCCCC)\
 
 $time\
 [ KubixCloud  v1.4.2](fg:#EEEEEE)\
-
+$custom\
 
 
 
@@ -80,7 +79,7 @@ disabled = true
 ssh_only = false
 style= "fg:white"
 format = '[|$localipv4 ]($style)'
-disabled = disabled
+disabled = true
 
 [hostname]
 ssh_only = false
