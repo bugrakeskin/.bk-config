@@ -45,7 +45,7 @@ right_format = """
 $cmd_duration\
 $memory_usage\
 $docker_context\
-[](fg:#CCCCCC bg:#2e3440)\
+
 [](fg:#2e3440 bg:#CCCCCC)\
 [ ](fg:#EEEEEE bg:#CCCCCC)\
 $localip\
@@ -53,7 +53,7 @@ $localip\
 [](fg:#2e3440 bg:#CCCCCC)\
 
 $time\
-[ KubixCloud  v1.4.2](fg:#EEEEEE)\
+[ KubixCloud  v1.4.2](fg:#4C4B16 bg:#CCCCCC)\
 $custom\
 
 
@@ -127,7 +127,7 @@ format = '[$all_status$ahead_behind ]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:#FFD369"
+style = "fg:#FFD369 bg:#CCCCCC"
 format = '[  $time ]($style)'
 
 [cmd_duration]
