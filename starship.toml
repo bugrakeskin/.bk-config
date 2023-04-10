@@ -50,6 +50,7 @@ $time\
 [ ](fg:#4C4B16 bg:#CCCCCC)\
 $localip\
 [ KubixCloud  v1.4.2](fg:#4C4B16 bg:#CCCCCC)\
+[](fg:#CCCCCC)\
 
 """
 
@@ -120,7 +121,7 @@ format = '[$all_status$ahead_behind ]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:#FFD369 bg:#CCCCCC"
+style = "fg:#4C4B16 bg:#CCCCCC"
 format = '[  $time ]($style)'
 
 [cmd_duration]
