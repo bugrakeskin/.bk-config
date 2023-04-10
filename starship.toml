@@ -6,11 +6,10 @@ format = """
 [ 樂](fg:#EEEEEE bg:#CCCCCC)\
 $hostname\
 
-
 [](fg:#CCCCCC bg:#2e3440)\
 [](fg:#2e3440 bg:#CCCCCC)\
 
-[ ](fg:#EEEEEEbg:#CCCCCC)\
+[ ](fg:#EEEEEE bg:#CCCCCC)\
 $username\
 
 [](fg:#CCCCCC bg:#FFD369)\
