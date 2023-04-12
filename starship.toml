@@ -45,7 +45,7 @@ right_format = """
 $cmd_duration\
 $memory_usage\
 $docker_context\
-[ ](fg:#595260)\
+[ ](fg:#595260 bg:#595260)\
 $time\
 [](fg:#B2B1B9 bg:#595260)\
 $localip\
