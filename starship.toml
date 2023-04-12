@@ -92,7 +92,7 @@ truncation_symbol = " … "
 
 [directory.substitutions]
 "~" = " ~"
-"/" = "" 
+"/" = " . " 
 "Documents" = "  Documents"
 "Downloads" = "   Downloads"
 "Music" = "   Music"
