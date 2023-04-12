@@ -1,6 +1,6 @@
 format = """
 [](fg:#21325E)\
-[ ](fg:#4C4B16 bg:#21325E)\
+[ ](fg:#F0F0F0 bg:#21325E)\
 [](fg:#21325E bg:#3E497A)\
 
 [ 樂](fg:#21325E bg:#3E497A)\
@@ -47,9 +47,9 @@ $memory_usage\
 $docker_context\
 [](bg:#3E497A fg:#2e3440)\
 $time\
-[ ](fg:#4C4B16 bg:#3E497A)\
+[ ](fg:#F0F0F0 bg:#3E497A)\
 $localip\
-[ KubixCloud  v1.5.0](fg:#4C4B16 bg:#3E497A)\
+[ KubixCloud  v1.5.0](fg:#F0F0F0 bg:#3E497A)\
 [](fg:#3E497A)\
 
 """
@@ -68,22 +68,22 @@ disabled = true
 
 [localip]
 ssh_only = false
-style= "fg:#4C4B16 bg:#3E497A"
+style= "fg:#F0F0F0 bg:#3E497A"
 format = '[ $localipv4 ]($style)'
 disabled = false
 
 [hostname]
 ssh_only = false
-style = "fg:#4C4B16 bg:#3E497A"
+style = "fg:#F0F0F0 bg:#3E497A"
 format = '[$hostname ]($style)'
 
 [username]
-style_user= "fg:#4C4B16 bg:#3E497A"
-style_root = "fg:#4C4B16 bg:#3E497A"
+style_user= "fg:#F0F0F0 bg:#3E497A"
+style_root = "fg:#F0F0F0 bg:#3E497A"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:#4C4B16 bg:#F1D00A"
+style = "fg:#F0F0F0 bg:#F1D00A"
 truncate_to_repo = false
 read_only = " "
 format = "[$read_only $path ]($style)"
@@ -101,7 +101,7 @@ truncation_symbol = " … "
 
 [git_branch]
 symbol = "  "
-style = "fg:#4C4B16 bg:#21325E"
+style = "fg:#F0F0F0 bg:#21325E"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
@@ -114,13 +114,13 @@ modified = " $count "
 staged = " $count "
 renamed = " $count "
 untracked = " $count"
-style = "fg:#4C4B16 bg:#21325E"
+style = "fg:#F0F0F0 bg:#21325E"
 format = '[$all_status$ahead_behind ]($style)'
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:#4C4B16 bg:#3E497A"
+style = "fg:#F0F0F0 bg:#3E497A"
 format = '[  $time ]($style)'
 
 [cmd_duration]
