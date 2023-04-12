@@ -1,7 +1,7 @@
 format = """
-[](fg:#B2B1B9)\
+[](fg:#2C2E43)\
 [ ](fg:#B2B1B9 bg:#2C2E43)\
-[](fg:#B2B1B9 bg:#595260)\
+[](fg:#2C2E43 bg:#595260)\
 
 [ 樂](fg:#B2B1B9 bg:#595260)\
 $hostname\
