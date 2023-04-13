@@ -13,7 +13,7 @@ $username\
 
 [](fg:unbg bg:dirbg)\
 
-[ ](fg:iconcolor bg:dirbg)\
+[ ](fg:dirfg bg:dirbg)\
 $directory\
 
 [](fg:dirbg bg:gitbg)\
@@ -106,7 +106,7 @@ truncation_length = 4
 truncation_symbol = " … " 
 
 [directory.substitutions]
-
+"~" = " ﳐ"
 "Documents" = "  Documents"
 "Downloads" = "   Downloads"
 "Music" = "   Music"
