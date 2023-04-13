@@ -106,7 +106,7 @@ truncation_length = 4
 truncation_symbol = " … " 
 
 [directory.substitutions]
-"~" = " ﮟ "
+"~" = " 󰣬 "
 "Documents" = "  Documents"
 "Downloads" = "   Downloads"
 "Music" = "   Music"
