@@ -69,7 +69,7 @@ dirbg = '#FFDD93'
 dirfg = '#39311D'
 gitbg = '#C4B6B6'
 gitfg = '#39311D'
-rightbg = '#FFDD93'
+rightbg = 'none'
 rightfg = '#39311D'
 iconcolor = '#F7B633'
 
