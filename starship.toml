@@ -2,10 +2,10 @@ add_newline = false
 format = """
 
 [](fg:osbg)\
-[ ](fg:iconcolor bg:osbg)\
+[ ](fg:iconcolor bg:osbg)\
 [](fg:osbg bg:hnbg)\
 
-[ 樂](fg:iconcolor bg:hnbg)\
+[ ](fg:iconcolor bg:hnbg)\
 $hostname\
 [](fg:iconcolor bg:hnbg)\
 
