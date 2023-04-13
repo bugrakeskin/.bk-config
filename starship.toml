@@ -2,11 +2,14 @@ add_newline = false
 format = """
 
 [](fg:osbg)\
+
 [ ](fg:iconcolor bg:osbg)\
+
 [](fg:osbg bg:hnbg)\
 
-[ ](fg:iconcolor bg:hnbg)\
+[  ](fg:iconcolor bg:hnbg)\
 $hostname\
+
 [](fg:iconcolor bg:hnbg)\
 
 $username\
