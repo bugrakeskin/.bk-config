@@ -13,7 +13,7 @@ $username\
 
 [](fg:unbg bg:dirbg)\
 
-[](fg:dirfg bg:dirbg)\
+[ ](fg:iconcolor bg:dirbg)\
 $directory\
 
 [](fg:dirbg bg:gitbg)\
@@ -55,7 +55,7 @@ $time\
 [](fg:rightfg bg:rightbg)\
 $localip\
 
-[ v1.7.8](fg:rightfg bg:rightbg)\
+[ v1.8.1](fg:rightfg bg:rightbg)\
 
 [ ](fg:iconcolor)\
 
