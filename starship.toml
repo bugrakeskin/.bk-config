@@ -10,7 +10,7 @@ $hostname\
 [ @ ](fg:hnfg bg:hnbg)\
 
 $username\
-[](fg:iconcolor bg:unbg)\
+[  ](fg:iconcolor bg:unbg)\
 
 [](fg:unbg bg:dirbg)\
 
@@ -96,7 +96,7 @@ format = '[$hostname]($style)'
 [username]
 style_user = "fg:hnfg bg:unbg"
 style_root = "fg:hnfg bg:unbg"
-format = '[ $user ]($style)'
+format = '[$user]($style)'
 
 [directory]
 style = "fg:dirfg bg:dirbg"
