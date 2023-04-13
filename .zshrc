@@ -5,9 +5,11 @@
 figlet  -f small Welcome to
 figlet  -f small KubixCloud
 
-echo 'www.kubixcloud.com'
+
 echo 'Shell: ZSH with OHMYZSH framework and Starship Cross-shell Promt'
-echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.6'
+echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.7'
+echo 'www.kubixcloud.com'
+echo ''
 echo ' KubixCloud'
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
