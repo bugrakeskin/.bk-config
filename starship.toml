@@ -88,8 +88,8 @@ style = "fg:hnfg bg:hnbg"
 format = '[$hostname ]($style)'
 
 [username]
-style_user = "fg:hnfg bg:#FF9000"
-style_root = "fg:hnfg bg:#FF9000"
+style_user = "fg:hnfg bg:unbg"
+style_root = "fg:hnfg bg:unbg"
 format = '[ $user ]($style)'
 
 [directory]
