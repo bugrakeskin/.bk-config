@@ -49,7 +49,7 @@ $time\
 [ ](fg:#F7B633)\
 [](fg:#B2B1B9 bg:none)\
 $localip\
-[ v1.7.3](fg:#B2B1B9 bg:none)\
+[ v1.7.3](fg:rightfg bg:rightbg)\
 [ ](fg:#F7B633)\
 
 """
@@ -65,6 +65,8 @@ dirbg = '#FFDD93'
 dirfg = '#39311D'
 gitbg = '#C4B6B6'
 gitfg = '#39311D'
+rightbg = '#FFDD93'
+rightfg = '#39311D'
 
 continuation_prompt = "[](green)"
 
@@ -76,13 +78,6 @@ error_symbol = "[](red)"
 format = "[ $os]($style)"
 style = "fg:black bg:blue"
 disabled = true
-
-
-[localip]
-ssh_only = false
-style= "fg:#B2B1B9 bg:none"
-format = '[ $localipv4 ]($style)'
-disabled = false
 
 [hostname]
 ssh_only = false
@@ -132,8 +127,14 @@ format = '[$all_status$ahead_behind ]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:#F7B633 bg:none"
+style = "fg:rightbg bg:none"
 format = '[ $time ]($style)'
+
+[localip]
+ssh_only = false
+style= "fg:rightfg bg:rightbg"
+format = '[ $localipv4 ]($style)'
+disabled = false
 
 [cmd_duration]
 style = "yellow"
