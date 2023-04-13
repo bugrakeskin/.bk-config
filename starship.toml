@@ -52,7 +52,7 @@ $time\
 [](fg:rightfg bg:rightbg)\
 $localip\
 
-[ v1.7.3](fg:rightfg bg:rightbg)\
+[ v1.7.8](fg:rightfg bg:rightbg)\
 
 [ ](fg:#F7B633)\
 
@@ -132,7 +132,7 @@ format = '[$all_status$ahead_behind ]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:rightbg bg:none"
+style = "fg:rightfg bg:none"
 format = '[ $time ]($style)'
 
 [localip]
