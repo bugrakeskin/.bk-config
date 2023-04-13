@@ -7,7 +7,7 @@ format = """
 
 [ 樂](fg:iconcolor bg:hnbg)\
 $hostname\
-[](fg:hnfg bg:hnbg)\
+[](fg:iconcolor bg:hnbg)\
 
 $username\
 [  ](fg:iconcolor bg:unbg)\
