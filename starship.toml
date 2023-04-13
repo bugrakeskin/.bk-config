@@ -1,23 +1,23 @@
 format = """
-[](fg:#07031A)\
-[ ](fg:#07031A bg:#07031A)\
-[](fg:#07031A bg:#4F8A8B)\
+[](fg:#37474F)\
+[ ](fg:#90A4AE bg:#37474F)\
+[](fg:#37474F bg:#595260)\
 
-[ 樂](fg:#FFCB74 bg:#4F8A8B)\
+[ 樂](fg:#F7B633 bg:#595260)\
 $hostname\
 
-[](fg:#4F8A8B)\
-[](fg:#4F8A8B)\
+[](fg:#595260)\
+[](fg:#595260)\
 
-[ ](fg:#07031A bg:#4F8A8B)\
+[ ](fg:#B2B1B9 bg:#595260)\
 $username\
 
-[](fg:#4F8A8B bg:#FFCB74)\
+[](fg:#595260 bg:#F7B633)\
 $directory\
-[](fg:#FFCB74 bg:#07031A)\
+[](fg:#F7B633 bg:#B2B1B9)\
 $git_branch\
 $git_status\
-[](fg:#07031A)\
+[](fg:#B2B1B9)\
 
 $c\
 $dart\
@@ -47,11 +47,11 @@ $memory_usage\
 $docker_context\
 
 $time\
-[ ](fg:#4F8A8B)\
-[](fg:#07031A bg:none)\
+[ ](fg:#595260)\
+[](fg:#B2B1B9 bg:none)\
 $localip\
-[ KubixCloud  v1.6.1](fg:#07031A bg:none)\
-[](fg:#4F8A8B)\
+[ KubixCloud  v1.6.1](fg:#B2B1B9 bg:none)\
+[](fg:#595260)\
 
 """
 
@@ -69,22 +69,22 @@ disabled = true
 
 [localip]
 ssh_only = false
-style= "fg:#07031A bg:none"
+style= "fg:#B2B1B9 bg:none"
 format = '[ $localipv4 ]($style)'
 disabled = false
 
 [hostname]
 ssh_only = false
-style = "fg:#07031A bg:#4F8A8B"
+style = "fg:#B2B1B9 bg:#595260"
 format = '[$hostname ]($style)'
 
 [username]
-style_user= "fg:#07031A bg:#4F8A8B"
-style_root = "fg:#07031A bg:#4F8A8B"
+style_user= "fg:#B2B1B9 bg:#595260"
+style_root = "fg:#B2B1B9 bg:#595260"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:#07031A bg:#FFCB74"
+style = "fg:#2C2E43 bg:#F7B633"
 truncate_to_repo = false
 read_only = " "
 format = "[$read_only $path ]($style)"
@@ -102,7 +102,7 @@ truncation_symbol = " … "
 
 [git_branch]
 symbol = "  "
-style = "fg:#07031A bg:#07031A"
+style = "fg:#2C2E43 bg:#B2B1B9"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
@@ -115,13 +115,13 @@ modified = " $count "
 staged = " $count "
 renamed = " $count "
 untracked = " $count"
-style = "fg:#07031A bg:#07031A"
+style = "fg:#2C2E43 bg:#B2B1B9"
 format = '[$all_status$ahead_behind ]($style)'
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:#FFCB74 bg:none"
+style = "fg:#F7B633 bg:none"
 format = '[ $time ]($style)'
 
 [cmd_duration]
