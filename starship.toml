@@ -1,18 +1,18 @@
 format = """
 [](fg:#37474F)\
 [ ](fg:#90A4AE bg:#37474F)\
-[](fg:#37474F bg:#595260)\
+[](fg:#37474F bg:#607D8B)\
 
-[ 樂](fg:#F7B633 bg:#595260)\
+[ 樂](fg:#F7B633 bg:#607D8B)\
 $hostname\
 
-[](fg:#595260)\
-[](fg:#595260)\
+[](fg:#607D8B)\
+[](fg:#607D8B)\
 
-[ ](fg:#B2B1B9 bg:#595260)\
+[ ](fg:#B2B1B9 bg:#607D8B)\
 $username\
 
-[](fg:#595260 bg:#F7B633)\
+[](fg:#607D8B bg:#F7B633)\
 $directory\
 [](fg:#F7B633 bg:#B2B1B9)\
 $git_branch\
@@ -47,11 +47,11 @@ $memory_usage\
 $docker_context\
 
 $time\
-[ ](fg:#595260)\
+[ ](fg:#607D8B)\
 [](fg:#B2B1B9 bg:none)\
 $localip\
 [ KubixCloud  v1.6.1](fg:#B2B1B9 bg:none)\
-[](fg:#595260)\
+[](fg:#607D8B)\
 
 """
 
@@ -75,12 +75,12 @@ disabled = false
 
 [hostname]
 ssh_only = false
-style = "fg:#B2B1B9 bg:#595260"
+style = "fg:#B2B1B9 bg:#607D8B"
 format = '[$hostname ]($style)'
 
 [username]
-style_user= "fg:#B2B1B9 bg:#595260"
-style_root = "fg:#B2B1B9 bg:#595260"
+style_user= "fg:#B2B1B9 bg:#607D8B"
+style_root = "fg:#B2B1B9 bg:#607D8B"
 format = '[ $user ]($style)'
 
 [directory]
