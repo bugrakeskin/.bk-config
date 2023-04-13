@@ -12,7 +12,10 @@ $hostname\
 $username\
 
 [](fg:unbg bg:dirbg)\
+
+[](fg:dirfg bg:dirbg)\
 $directory\
+
 [](fg:dirbg bg:gitbg)\
 $git_branch\
 $git_status\
@@ -54,7 +57,7 @@ $localip\
 
 [ v1.7.8](fg:rightfg bg:rightbg)\
 
-[ ](fg:#F7B633)\
+[ ](fg:iconcolor)\
 
 """
 palette = 'BK'
@@ -103,7 +106,7 @@ truncation_length = 4
 truncation_symbol = " … " 
 
 [directory.substitutions]
-"~" = " ~"
+
 "Documents" = "  Documents"
 "Downloads" = "   Downloads"
 "Music" = "   Music"
