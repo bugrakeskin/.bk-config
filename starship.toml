@@ -1,6 +1,6 @@
 format = """
 
-[](fg:osfg)\
+[](fg:osbg)\
 [ ](fg:osfg bg:osbg)\
 [](fg:osfg bg:osbg)\
 
