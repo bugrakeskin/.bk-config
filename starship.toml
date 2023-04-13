@@ -1,18 +1,18 @@
 format = """
-[](fg:#37474F)\
-[ ](fg:#90A4AE bg:#37474F)\
-[](fg:#37474F bg:#607D8B)\
+[](fg:#B31313)\
+[ ](fg:#FFEE82 bg:#B31313)\
+[](fg:#B31313 bg:#FF9000)\
 
-[ 樂](fg:#F7B633 bg:#607D8B)\
+[ 樂](fg:#F7B633 bg:#FF9000)\
 $hostname\
 
-[](fg:#607D8B)\
-[](fg:#607D8B)\
+[](fg:#FF9000)\
+[](fg:#FF9000)\
 
-[ ](fg:#B2B1B9 bg:#607D8B)\
+[ ](fg:#B2B1B9 bg:#FF9000)\
 $username\
 
-[](fg:#607D8B bg:#F7B633)\
+[](fg:#FF9000 bg:#F7B633)\
 $directory\
 [](fg:#F7B633 bg:#B2B1B9)\
 $git_branch\
@@ -47,11 +47,11 @@ $memory_usage\
 $docker_context\
 
 $time\
-[ ](fg:#607D8B)\
+[ ](fg:#FF9000)\
 [](fg:#B2B1B9 bg:none)\
 $localip\
 [ KubixCloud  v1.6.1](fg:#B2B1B9 bg:none)\
-[](fg:#607D8B)\
+[](fg:#FF9000)\
 
 """
 
@@ -75,12 +75,12 @@ disabled = false
 
 [hostname]
 ssh_only = false
-style = "fg:#B2B1B9 bg:#607D8B"
+style = "fg:#FFEE82 bg:#FF9000"
 format = '[$hostname ]($style)'
 
 [username]
-style_user= "fg:#B2B1B9 bg:#607D8B"
-style_root = "fg:#B2B1B9 bg:#607D8B"
+style_user= "fg:#FFEE82 bg:#FF9000"
+style_root = "fg:#FFEE82 bg:#FF9000"
 format = '[ $user ]($style)'
 
 [directory]
