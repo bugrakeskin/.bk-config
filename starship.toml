@@ -2,7 +2,7 @@ format = """
 
 [](fg:osbg)\
 [ ](fg:osfg bg:osbg)\
-[](fg:osfg bg:osbg)\
+[](fg:osfg bg:hnbg)\
 
 [ 樂](fg:#F7B633 bg:#FF9000)\
 $hostname\
@@ -59,6 +59,7 @@ palette = 'BK'
 [palettes.BK]
 osbg = '#39311D'
 osfg = '#C4B6B6'
+hnbg = '#7E7474'
 
 continuation_prompt = "[](green)"
 
@@ -80,7 +81,7 @@ disabled = false
 
 [hostname]
 ssh_only = false
-style = "fg:#FFEE82 bg:#FF9000"
+style = "fg:#FFEE82 bg:hnbg"
 format = '[$hostname ]($style)'
 
 [username]
