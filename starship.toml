@@ -7,10 +7,10 @@ format = """
 [ 樂](fg:#F7B633 bg:hnbg)\
 $hostname\
 
-[](fg:#FF9000)\
-[](fg:#FF9000)\
+[](fg:hnbg)\
+[](fg:hnbg)\
 
-[ ](fg:#B2B1B9 bg:#FF9000)\
+[ ](fg:#F7B633 bg:hnbg)\
 $username\
 
 [](fg:#FF9000 bg:#F7B633)\
@@ -60,6 +60,7 @@ palette = 'BK'
 osbg = '#39311D'
 osfg = '#C4B6B6'
 hnbg = '#7E7474'
+hnfg = '#FFDD93'
 
 continuation_prompt = "[](green)"
 
@@ -81,12 +82,12 @@ disabled = false
 
 [hostname]
 ssh_only = false
-style = "fg:#FFEE82 bg:hnbg"
+style = "fg:hnfg bg:hnbg"
 format = '[$hostname ]($style)'
 
 [username]
-style_user= "fg:#FFEE82 bg:#FF9000"
-style_root = "fg:#FFEE82 bg:#FF9000"
+style_user = "fg:hnfg bg:#FF9000"
+style_root = "fg:hnfg bg:#FF9000"
 format = '[ $user ]($style)'
 
 [directory]
