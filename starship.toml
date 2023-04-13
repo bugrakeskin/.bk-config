@@ -52,15 +52,10 @@ $memory_usage\
 $docker_context\
 
 $time\
-[ ](fg:iconcolor)\
-
 
 [ﰍ](fg:rightfg bg:rightbg)\
 $localip\
 
-[ v1.8.1](fg:rightfg bg:rightbg)\
-
-[ ](fg:iconcolor)\
 
 
 """
