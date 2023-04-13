@@ -139,7 +139,7 @@ format = '[ $time ]($style)'
 
 [localip]
 ssh_only = false
-style= "fg:rightfg bg:rightbg"
+style= "fg:white bg:rightbg"
 format = '[ $localipv4 ]($style)'
 disabled = false
 
