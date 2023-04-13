@@ -2,7 +2,7 @@ add_newline = false
 format = """
 
 [](fg:osbg)\
-[ ](fg:osfg bg:osbg)\
+[ ](fg:iconcolor bg:osbg)\
 [](fg:osbg bg:hnbg)\
 
 [ 樂](fg:#F7B633 bg:hnbg)\
@@ -46,7 +46,7 @@ $memory_usage\
 $docker_context\
 
 $time\
-[ ](fg:#F7B633)\
+[ ](fg:iconcolor)\
 [](fg:#B2B1B9 bg:none)\
 $localip\
 [ v1.7.3](fg:rightfg bg:rightbg)\
@@ -67,6 +67,7 @@ gitbg = '#C4B6B6'
 gitfg = '#39311D'
 rightbg = '#FFDD93'
 rightfg = '#39311D'
+iconcolor = '#F7B633'
 
 continuation_prompt = "[](green)"
 
