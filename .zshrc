@@ -5,7 +5,7 @@ figlet  -f small Welcome to
 figlet  -f small KubixCloud
 echo 'www.kubixcloud.com'
 echo 'Shell: ZSH with OHMYZSH framework and Starship Cross-shell Promt'
-echo 'Theme designed by: Buğra Keskin - DevOps Sysadmin v1.5.0'
+echo 'Theme designed by: Buğra Keskin - DevOps Sysadmin v1.5.1'
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
@@ -136,4 +136,4 @@ eval "$(starship init zsh)"
 
 # PS1=$'\n\n\e[2A'"$PS1"
 
-PROMPT_COMMAND='printf "Exit code: %s\n" $?'
+#PROMPT_COMMAND='printf "Exit code: %s\n" $?'
