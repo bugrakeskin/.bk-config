@@ -1,6 +1,6 @@
 format = """
-[](fg:#B31313)\
-[ ](fg:#FFEE82 bg:#B31313)\
+[](fg:OS)\
+[ ](fg:#FFEE82 bg:OS)\
 [](fg:#B31313 bg:#FF9000)\
 
 [ 樂](fg:#F7B633 bg:#FF9000)\
@@ -54,6 +54,9 @@ $localip\
 [](fg:#FF9000)\
 
 """
+palette = 'BK'
+[palettes.BK]
+OS = '#39311D'
 
 continuation_prompt = "[](green)"
 
