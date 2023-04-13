@@ -1,11 +1,13 @@
 # Adds fm6000 fetch app
-#fm6000 -d "KubixCloud" -r -c "random" 
-# adds figlet app
+    #fm6000 -d "KubixCloud" -r -c "random" 
+    
+# adds figlet banner
 figlet  -f small Welcome to
 figlet  -f small KubixCloud
+
 echo 'www.kubixcloud.com'
 echo 'Shell: ZSH with OHMYZSH framework and Starship Cross-shell Promt'
-echo 'Theme designed by: Buğra Keskin - DevOps Sysadmin v1.5.1'
+echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.2'
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
@@ -14,7 +16,7 @@ echo '\e[5 q'
 preexec() { print "" }
 
 #add line after command
-#precmd() { print "" }
+  #precmd() { print "" }
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -27,6 +29,30 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME=""
+
+# add plugins
+plugins=(git z kubectl extract sudo zsh-interactive-cd ubuntu history debian command-not-found systemd zsh-exa)
+
+#export dump files
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST 
+
+source $ZSH/oh-my-zsh.sh
+
+alias c="clear"
+alias ccat="batcat"
+alias m="micro"
+alias shut="sudo shutdown now"
+alias star="micro ~/.config/starship.toml"
+alias ohmyzsh="micro ~/github/.bk-config/.zshrc"
+alias findbig="sudo du -hsx * | sort -rh | head -10"
+alias treeh="tree --du -h | batcat"
+alias exit=" fm6000 -s Good-Bye! && exit"
+alias update="cd '$HOME/github/.bk-config/' && git pull && cd '$HOME'"
+alias yabs="curl -sL yabs.sh | bash -s -- -fg"
+alias reboot="sudo reboot"
+
+export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
+eval "$(starship init zsh)"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -88,10 +114,6 @@ ZSH_THEME=""
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z kubectl extract sudo zsh-interactive-cd ubuntu history debian command-not-found systemd zsh-exa)
-#export dump files
-export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST 
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -118,21 +140,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias c="clear"
-alias ccat="batcat"
-alias m="micro"
-alias shut="sudo shutdown now"
-alias star="micro ~/.config/starship.toml"
-alias ohmyzsh="micro ~/github/.bk-config/.zshrc"
-alias findbig="sudo du -hsx * | sort -rh | head -10"
-alias treeh="tree --du -h | batcat"
-alias exit=" fm6000 -s Good-Bye! && exit"
-alias update="cd '$HOME/github/.bk-config/' && git pull && cd '$HOME'"
-alias yabs="curl -sL yabs.sh | bash -s -- -fg"
-alias reboot="sudo reboot"
 
-export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
-eval "$(starship init zsh)"
 
 # PS1=$'\n\n\e[2A'"$PS1"
 
