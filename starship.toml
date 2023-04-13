@@ -18,7 +18,7 @@ $directory\
 [](fg:dirbg bg:gitbg)\
 $git_branch\
 $git_status\
-[](fg:gitfg)\
+[](fg:gitbg)\
 
 $c\
 $dart\
