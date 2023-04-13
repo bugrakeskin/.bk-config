@@ -8,8 +8,9 @@ format = """
 [ 樂](fg:iconcolor bg:hnbg)\
 $hostname\
 [ @ ](fg:hnfg bg:hnbg)\
-[](fg:iconcolor bg:unbg)\
+
 $username\
+[](fg:iconcolor bg:unbg)\
 
 [](fg:unbg bg:dirbg)\
 
