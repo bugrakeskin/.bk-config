@@ -49,7 +49,7 @@ $time\
 
 [ ](fg:iconcolor)\
 
-[](fg:iconcolor bg:none)\
+[](fg:rightfg bg:iconcolor)\
 $localip\
 
 [ v1.7.3](fg:rightfg bg:rightbg)\
