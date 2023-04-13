@@ -13,12 +13,12 @@ $hostname\
 [ ](fg:#F7B633 bg:unbg)\
 $username\
 
-[](fg:#FF9000 bg:#F7B633)\
+[](fg:unbg bg:dirbg)\
 $directory\
-[](fg:#F7B633 bg:#B2B1B9)\
+[](fg:dirbg bg:gitbg)\
 $git_branch\
 $git_status\
-[](fg:#B2B1B9)\
+[](fg:gitfg)\
 
 $c\
 $dart\
@@ -63,6 +63,10 @@ hnbg = '#7E7474'
 hnfg = '#FFDD93'
 unbg = '#7E7474'
 unfg = '#FFDD93'
+dirbg = '#FFDD93'
+dirfg = '#39311D'
+gitbg = '#C4B6B6'
+gitfg = '#39311D'
 
 continuation_prompt = "[](green)"
 
@@ -93,7 +97,7 @@ style_root = "fg:hnfg bg:unbg"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:#2C2E43 bg:#F7B633"
+style = "fg:dirfg bg:dirbg"
 truncate_to_repo = false
 read_only = " "
 format = "[$read_only $path ]($style)"
