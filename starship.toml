@@ -53,7 +53,7 @@ $docker_context\
 
 $time\
 
-[󰌘](fg:rightfg bg:rightbg)\
+[](fg:rightfg bg:rightbg)\
 $localip\
 
 
