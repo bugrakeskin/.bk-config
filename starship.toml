@@ -88,12 +88,12 @@ disabled = true
 [hostname]
 ssh_only = false
 style = "fg:hnfg bg:hnbg"
-format = '[$hostname]($style)'
+format = '[$hostname ]($style)'
 
 [username]
 style_user = "fg:hnfg bg:unbg"
 style_root = "fg:hnfg bg:unbg"
-format = '[$user]($style)'
+format = '[ $user]($style)'
 
 [directory]
 style = "fg:dirfg bg:dirbg"
