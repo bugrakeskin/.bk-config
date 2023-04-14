@@ -7,13 +7,12 @@ format = """
 
 [](fg:osbg bg:hnbg)\
 
-[  ](fg:iconcolor bg:hnbg)\
-$hostname\
-
-[ - ](fg:iconcolor bg:hnbg)\
-
-$username\
 [  ](fg:iconcolor bg:unbg)\
+$username\
+
+[ on ](fg:iconcolor bg:hnbg)\
+
+$hostname\
 
 [](fg:unbg bg:dirbg)\
 
