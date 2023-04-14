@@ -12,7 +12,10 @@ $username\
 
 [ on ](fg:iconcolor bg:hnbg)\
 
+
 $hostname\
+[  ](fg:iconcolor bg:hnbg)\
+
 
 [](fg:unbg bg:dirbg)\
 
