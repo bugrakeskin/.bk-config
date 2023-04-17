@@ -55,8 +55,6 @@ $time\
 [- ](fg:rightfg bg:rightbg)\
 $localip\
 
-
-
 """
 palette = 'BK'
 [palettes.BK]
@@ -139,7 +137,7 @@ format = '[ $time ]($style)'
 [localip]
 ssh_only = false
 style= "fg:white bg:rightbg"
-format = '[ $localipv4   ]($style)'
+format = '[$localipv4   ]($style)'
 disabled = false
 
 [cmd_duration]
