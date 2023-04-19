@@ -155,52 +155,52 @@ style = "fg:#06969A bold"
 format = '[ $symbol $context ]($style) $path'
 
 [c]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [dart]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [elixir]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [elm]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [golang]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [kotlin]
-symbol = "🅺 "
+symbol = "🅺"
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [lua]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
@@ -210,32 +210,32 @@ style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [python]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [rlang]
-symbol = "ﳒ "
+symbol = "ﳒ"
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [ruby]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
-symbol = " "
+symbol = ""
 style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
