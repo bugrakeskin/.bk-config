@@ -112,7 +112,7 @@ truncation_symbol = " … "
 
 
 [git_branch]
-symbol = "  "
+symbol = " "
 style = "fg:gitfg bg:gitbg"
 format = '[$symbol $branch ]($style)'
 
