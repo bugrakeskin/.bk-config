@@ -19,7 +19,7 @@ $directory\
 
 [](fg:dirbg bg:gitbg)\
 $git_branch\
-[](fg:gitbg bg:gitbg)\
+[](fg:gitbg bg:iconcolor)\
 $git_status\
 $c\
 $dart\
@@ -123,7 +123,7 @@ modified = "  $count "
 staged = "  $count "
 renamed = "  $count "
 untracked = "  $count"
-style = "fg:gitfg bg:gitbg"
+style = "fg:gitfg bg:iconcolor"
 format = '[$all_status$ahead_behind ]($style)'
 
 [time]
