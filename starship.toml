@@ -59,17 +59,17 @@ palette = 'BK'
 [palettes.BK]
 osbg = '#39311D'
 osfg = '#C4B6B6'
-hnbg = '#B7C4CF'
+hnbg = '#AC7088'
 hnfg = '#39311D'
-unbg = '#B7C4CF'
+unbg = '#AC7088'
 unfg = '#39311D'
-dirbg = '#EEE3CB'
+dirbg = '#F5E8C7'
 dirfg = '#39311D'
 
-gitbg = '#C4B6B6'
+gitbg = '#ECCCB2'
 gitfg = '#39311D'
 
-gitstbg = '#E4D0D0'
+gitstbg = '#DEB6AB'
 gitstfg = '#39311D'
 
 gitpckbg = '#39311D'
