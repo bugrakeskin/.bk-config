@@ -72,7 +72,7 @@ gitfg = '#39311D'
 gitstbg = '#ECE8DD'
 gitstfg = '#39311D'
 
-gitpckbg = '#6096B4'
+gitpckbg = '#39311D'
 gitpckfg = '#ECE8DD'
 
 rightbg = 'none'
