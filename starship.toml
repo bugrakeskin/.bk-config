@@ -19,6 +19,7 @@ $directory\
 
 [](fg:dirbg bg:gitbg)\
 $git_branch\
+[](fg:dirbg bg:gitbg)\
 $git_status\
 
 [](fg:gitbg)\
@@ -116,15 +117,15 @@ style = "fg:gitfg bg:gitbg"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-ahead = " $count "
-behind = " $count "
-deleted = "﫧$count "
-diverged = " $count "
-stashed = " $count "
-modified = " $count "
-staged = " $count "
-renamed = " $count "
-untracked = " $count"
+ahead = "  $count "
+behind = "  $count "
+deleted = " 﫧$count "
+diverged = "  $count "
+stashed = "  $count "
+modified = "  $count "
+staged = "  $count "
+renamed = "  $count "
+untracked = "  $count"
 style = "fg:gitfg bg:gitbg"
 format = '[$all_status$ahead_behind ]($style)'
 
