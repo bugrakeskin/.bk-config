@@ -49,7 +49,7 @@ alias ohmyzsh="micro ~/github/.bk-config/.zshrc"
 alias findbig="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h | batcat"
 alias exit=" fm6000 -s Good-Bye! && exit"
-alias update="cd '$HOME/github/.bk-config/' && git pull && cd '$HOME'"
+alias update="cd '$HOME/github/.bk-config/' && git pull && cd '$HOME' && exit"
 alias yabs="curl -sL yabs.sh | bash -s -- -fg"
 alias reboot="sudo reboot"
 
