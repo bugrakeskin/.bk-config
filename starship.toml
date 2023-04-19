@@ -21,9 +21,6 @@ $directory\
 $git_branch\
 [](fg:gitbg bg:gitbg)\
 $git_status\
-
-[](fg:gitbg)\
-
 $c\
 $dart\
 $elixir\
@@ -41,7 +38,7 @@ $rlang\
 $ruby\
 $rust\
 $scala\
-
+[](fg:gitbg)\
 
 $character
 """
