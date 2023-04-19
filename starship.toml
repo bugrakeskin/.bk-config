@@ -69,7 +69,7 @@ gitfg = '#39311D'
 rightbg = 'none'
 rightfg = '#EEE3CB'
 iconcolor = '#F7B633'
-gbranchbg = '#C8B6A6'
+gbranchbg = '#ABC4AA'
 gbranchfg = '#D7C0AE'
 
 continuation_prompt = "[](green)"
