@@ -116,7 +116,7 @@ format = '[ $symbol $branch ]($style)'
 [git_status]
 ahead = "  $count "
 behind = "  $count "
-deleted = " 﫧$count "
+deleted = " 﫧 $count "
 diverged = "  $count "
 stashed = "  $count "
 modified = "  $count "
@@ -156,86 +156,86 @@ format = '[ $symbol $context ]($style) $path'
 
 [c]
 symbol = " "
-style = "fg:#3F4347 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [dart]
 symbol = " "
-style = "fg:#3FBEF7 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [elixir]
 symbol = " "
-style = "fg:#422758 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [elm]
 symbol = " "
-style = "fg:#F0AD00 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [golang]
 symbol = " "
-style = "fg:#00ACD7 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "fg:#9C4B89 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "fg:#F0931C bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "fg:#CA3C32 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [kotlin]
 symbol = "🅺 "
-style = "fg:#746DDA bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [lua]
 symbol = " "
-style = "fg:#0402A9 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
-style = "fg:#6BA15C bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = " "
-style = "fg:#F7E852 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [python]
 symbol = " "
-style = "fg:#316A9A bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [rlang]
 symbol = "ﳒ "
-style = "fg:#2266B8 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [ruby]
 symbol = " "
-style = "fg:#B91B0B bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
 symbol = " "
-style = "fg:#C26F2E bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
 symbol = " "
-style = "fg:#D73222 bold"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol ($version) ]($style)'
 
