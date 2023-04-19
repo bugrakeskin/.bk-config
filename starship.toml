@@ -154,90 +154,90 @@ format = '[ $symbol $ram]($style)'
 [docker_context]
 symbol = " "
 style = "fg:#06969A bold"
-format = '[ $symbol $context ]($style) $path'
+format = '[$symbol $context ]($style) $path'
 
 [c]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [dart]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [elixir]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [elm]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [golang]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [haskell]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [java]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [julia]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [kotlin]
 symbol = "🅺"
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [lua]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [nim]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [python]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [rlang]
 symbol = "ﳒ"
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [ruby]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [rust]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
 [scala]
 symbol = ""
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol ($version) ]($style)'
 
