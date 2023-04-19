@@ -114,7 +114,7 @@ truncation_symbol = " … "
 [git_branch]
 symbol = "  "
 style = "fg:gitfg bg:gitbg"
-format = '[ $symbol $branch ]($style)'
+format = '[$symbol $branch ]($style)'
 
 [git_status]
 ahead = "  $count "
