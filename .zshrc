@@ -42,7 +42,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias c="clear"
 alias ccat="batcat"
-alias m="micro"
+alias m="sudo micro"
 alias shut="sudo shutdown now"
 alias star="micro ~/.config/starship.toml"
 alias ohmyzsh="micro ~/github/.bk-config/.zshrc"
