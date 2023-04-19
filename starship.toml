@@ -21,7 +21,7 @@ $directory\
 $git_branch\
 [](fg:gitbg bg:gitstbg)\
 $git_status\
-[](fg:gitbg bg:gitstbg)\
+[](fg:gitstbg bg:gitpckbg)\
 $c\
 $dart\
 $elixir\
@@ -65,15 +65,20 @@ unbg = '#B7C4CF'
 unfg = '#39311D'
 dirbg = '#EEE3CB'
 dirfg = '#39311D'
+
 gitbg = '#C4B6B6'
 gitfg = '#39311D'
-gitstbg = '#F8EDE3'
+
+gitstbg = '#ECE8DD'
 gitstfg = '#39311D'
+
+gitpckbg = '#F8EDE3'
+gitpckfg = '#39311D'
+
 rightbg = 'none'
 rightfg = '#EEE3CB'
 iconcolor = '#F7B633'
-gbranchbg = '#F8EDE3'
-gbranchfg = '#D7C0AE'
+
 
 continuation_prompt = "[](green)"
 
@@ -156,91 +161,91 @@ format = '[ $symbol $ram]($style)'
 
 [docker_context]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol $context ]($style) $path'
 
 [c]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [dart]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [elixir]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [elm]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [golang]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [kotlin]
 symbol = "🅺"
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [lua]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [python]
 symbol = ""
-style = "fg:gitfg bg:gitbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [rlang]
 symbol = "ﳒ"
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [ruby]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
 symbol = ""
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitpckbg"
 format = '[ $symbol ($version) ]($style)'
 
