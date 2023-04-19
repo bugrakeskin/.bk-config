@@ -21,7 +21,7 @@ $directory\
 $git_branch\
 [](fg:gitbg bg:gitstbg)\
 $git_status\
-[](fg:gitbg bg:gbranchbg)\
+[](fg:gitbg bg:gitstbg)\
 $c\
 $dart\
 $elixir\
