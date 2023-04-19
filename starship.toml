@@ -19,7 +19,7 @@ $directory\
 
 [](fg:dirbg bg:gitbg)\
 $git_branch\
-[](fg:dirbg bg:gitbg)\
+[](fg:gitbg bg:gitbg)\
 $git_status\
 
 [](fg:gitbg)\
