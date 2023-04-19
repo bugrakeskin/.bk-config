@@ -112,7 +112,7 @@ truncation_symbol = " … "
 
 [git_branch]
 symbol = "  "
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitbg"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
@@ -125,7 +125,7 @@ modified = "  $count "
 staged = "  $count "
 renamed = "  $count "
 untracked = "  $count"
-style = "fg:gitfg bg:iconcolor"
+style = "fg:gitfg bg:gbranchbg"
 format = '[$all_status$ahead_behind ]($style)'
 
 [time]
