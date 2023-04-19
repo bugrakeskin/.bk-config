@@ -19,9 +19,9 @@ $directory\
 
 [](fg:dirbg bg:gitbg)\
 $git_branch\
-[](fg:gitbg bg:gbranchbg)\
+[](fg:gitbg bg:gitbg)\
 $git_status\
-[](fg:gitbg bg:gbranchbg)\
+[](fg:gitbg bg:gitbg)\
 $c\
 $dart\
 $elixir\
@@ -126,7 +126,7 @@ modified = "  $count "
 staged = "  $count "
 renamed = "  $count "
 untracked = "  $count"
-style = "fg:gitfg bg:gbranchbg"
+style = "fg:gitfg bg:gitbg"
 format = '[$all_status$ahead_behind ]($style)'
 
 [time]
