@@ -41,7 +41,7 @@ export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 source $ZSH/oh-my-zsh.sh
 
 alias c="clear"
-alias chistory= "'history -c' && 'history -w'"
+alias chistory= "history -c"
 alias ccat="batcat"
 alias m="sudo micro"
 alias shut="sudo shutdown now"
