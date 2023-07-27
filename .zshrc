@@ -2,7 +2,7 @@
 figlet  -f small Welcome to
 figlet  -f small KubixCloud
 
-echo -e '\033[31mShell:\033[0m'
+echo -e '\033[35mShell:\033[0m'
 
 echo 'ZSH with OHMYZSH framework and Starship Cross-shell Promt -v1.5.7'
 echo -e 'Theme designed & scripted by: \033[33mBuğra Keskin\033[0m - DevOps Engineer'
@@ -20,7 +20,7 @@ if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
         DISTRIB_DESCRIPTION=$(lsb_release -s -d)
 fi
 
-printf "Welcome to %s (%s %s %s)\n" "$DISTRIB_DESCRIPTION" "$(uname -o)" "$(uname -r)" "$(uname -m)"
+printf "%s (%s %s %s)\n" "$DISTRIB_DESCRIPTION" "$(uname -o)" "$(uname -r)" "$(uname -m)"
 
 #!/bin/sh
 
