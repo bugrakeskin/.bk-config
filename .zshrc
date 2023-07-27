@@ -10,8 +10,10 @@ echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.7'
 echo 'www.kubixcloud.com'
 echo ''
 echo ' KubixCloud'
-
+echo
+echo
 # this comes from ubuntu /etc/update-motd.d
+echo 'System:'
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 
 if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
