@@ -3,6 +3,11 @@ figlet  -f small Welcome to
 figlet  -f small KubixCloud
 
 echo -e '\033[44mShell:\033[0m'
+echo -e '\033[31mShell:\033[0m'
+echo -e '\033[33mShell:\033[0m'
+echo -e '\033[34mShell:\033[0m'
+echo -e '\033[35mShell:\033[0m'
+echo -e '\033[45mShell:\033[0m'
 echo 'ZSH with OHMYZSH framework and Starship Cross-shell Promt'
 echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.7'
 echo 'www.kubixcloud.com'
