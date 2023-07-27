@@ -2,12 +2,8 @@
 figlet  -f small Welcome to
 figlet  -f small KubixCloud
 
-echo -e '\033[44mShell:\033[0m'
 echo -e '\033[31mShell:\033[0m'
-echo -e '\033[33mShell:\033[0m'
-echo -e '\033[34mShell:\033[0m'
-echo -e '\033[35mShell:\033[0m'
-echo -e '\033[45mShell:\033[0m'
+
 echo 'ZSH with OHMYZSH framework and Starship Cross-shell Promt'
 echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.7'
 echo 'www.kubixcloud.com'
@@ -16,7 +12,7 @@ echo ' KubixCloud'
 echo
 # this comes from ubuntu /etc/update-motd.d
 
-echo -e '\033[44mSystem:\033[0m'
+echo -e '\033[31mSystem:\033[0m'
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 
 if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
@@ -38,9 +34,9 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 
 #Shortcuts
 
-echo -e '\033[44mShortcuts:\033[0m'
+echo -e '\033[31mShortcuts:\033[0m'
 echo
-echo -e '\033[44m-c\033[0m: Clear Screen , \033[44m-agud\033[0m: sudo $APT update && sudo $APT dist-upgrade , \033[44m-agar\033[0m: sudo $APT autoremove '
+echo -e '\033[33m-c\033[0m: Clear Screen , \033[33m-agud\033[0m: sudo $APT update && sudo $APT dist-upgrade , \033[33m-agar\033[0m: sudo $APT autoremove '
 
 
 ########
