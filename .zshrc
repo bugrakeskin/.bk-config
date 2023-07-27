@@ -35,6 +35,8 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 
 #Shortcuts
 echo 'Shortcuts : c:for Clear Screen , agud: sudo $APT update && sudo $APT dist-upgrade , agar: sudo $APT autoremove '
+echo -e '\033[43mShortcuts\033[0m'
+
 #
 
 # Prompt changes 1-2-3-4-5
