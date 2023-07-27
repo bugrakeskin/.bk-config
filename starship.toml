@@ -51,8 +51,7 @@ $docker_context\
 
 $time\
 
-[ ](fg:rightfg bg:rightbg)\
-$localip\
+
 
 """
 palette = 'BK'
