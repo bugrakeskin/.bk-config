@@ -33,7 +33,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 
 #Shortcuts
 echo -e '\033[31mShortcuts:\033[0m'
-echo -e '\033[33m-c\033[0m: Clear Screen , \033[33m-agud\033[0m: sudo $APT update && sudo $APT dist-upgrade , \033[33m-agar\033[0m: sudo $APT autoremove '
+echo -e '\033[33m-c\033[0m: Clear Screen , \033[33m-agud\033[0m: sudo $APT update && sudo $APT dist-upgrade , \033[33m-agar\033[0m: sudo $APT autoremove, \033[33m-la\033[0m: List Folder(detailed), \033[33m-treeh\033[0m: List Folder Tree view with sizes '
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
