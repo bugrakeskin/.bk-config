@@ -1,9 +1,6 @@
-
-    
 # adds figlet banner
 figlet  -f small Welcome to
 figlet  -f small KubixCloud
-
 
 echo -e '\033[44mShell:\033[0m'
 echo 'ZSH with OHMYZSH framework and Starship Cross-shell Promt'
@@ -12,9 +9,9 @@ echo 'www.kubixcloud.com'
 echo 
 echo ' KubixCloud'
 echo
-echo
 # this comes from ubuntu /etc/update-motd.d
-echo 'System:'
+
+echo -e '\033[44mSystem:\033[0m'
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 
 if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
@@ -35,7 +32,9 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 ### Finish motd
 
 #Shortcuts
-echo 'Shortcuts : c:for Clear Screen , agud: sudo $APT update && sudo $APT dist-upgrade , agar: sudo $APT autoremove '
+
+echo -e '\033[43mShortcuts:\033[0m'
+echo -e '\033[43m-c:\033[0m Clear Screen , agud: sudo $APT update && sudo $APT dist-upgrade , agar: sudo $APT autoremove '
 echo -e '\033[43mShortcuts\033[0m'
 
 #
