@@ -35,7 +35,8 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 
 echo -e '\033[44mShortcuts:\033[0m'
 echo
-echo -e '\033[48;5;214m-c:\033[0m Clear Screen , \033[48;5;214m-agud:\033[0m sudo $APT update && sudo $APT dist-upgrade , \033[48;5;214m-agar:\033[0m sudo $APT autoremove '
+echo -e '\033[48;5;218m-c\033[0m : Clear Screen , \033[48;5;218m-agud\033[0m : sudo $APT update && sudo $APT dist-upgrade , \033[48;5;218m-agar\033[0m : sudo $APT autoremove '
+
 
 ########
 
