@@ -33,7 +33,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 
 #Shortcuts
 echo -e '\033[31mShortcuts:\033[0m'
-echo -e '\033[33m-c\033[0m: Clear Screen, \033[33m-reboot\033[0m: Reboot, \033[33m-shut\033[0m: Shutdown, \033[33m-agud\033[0m: sudo $APT update && sudo $APT dist-upgrade, \033[33m-agar\033[0m: sudo $APT autoremove, \033[33m-la\033[0m: List Folder(detailed), \033[33m-treeh\033[0m: List Folder Tree view with sizes, \033[33m-yabs\033[0m: Yet Another Bench Script, \033[33m-findbig\033[0m: Find Biggest file in folder ' 
+echo -e '\033[33m-c\033[0m: Clear Screen, \033[33m-reboot\033[0m: Reboot, \033[33m-shut\033[0m: Shutdown, \033[33m-agud\033[0m: Update & Dist-upgrade, \033[33m-agar\033[0m: Apt autoremove, \033[33m-la\033[0m: List Folder(detailed), \033[33m-treeh\033[0m: List Folder Tree view with sizes, \033[33m-yabs\033[0m: Yet Another Bench Script, \033[33m-findbig\033[0m: Find Biggest file in folder ' 
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
