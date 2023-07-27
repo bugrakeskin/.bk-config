@@ -5,10 +5,11 @@ figlet  -f small Welcome to
 figlet  -f small KubixCloud
 
 
-echo 'Shell: ZSH with OHMYZSH framework and Starship Cross-shell Promt'
+echo -e '\033[44mShell:\033[0m'
+echo 'ZSH with OHMYZSH framework and Starship Cross-shell Promt'
 echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.7'
 echo 'www.kubixcloud.com'
-echo ''
+echo 
 echo ' KubixCloud'
 echo
 echo
