@@ -1,5 +1,4 @@
-# Adds fm6000 fetch app
-    #fm6000 -d "KubixCloud" -r -c "random" 
+
     
 # adds figlet banner
 figlet  -f small Welcome to
