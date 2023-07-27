@@ -5,11 +5,10 @@ figlet  -f small KubixCloud
 echo -e '\033[31mShell:\033[0m'
 
 echo 'ZSH with OHMYZSH framework and Starship Cross-shell Promt'
-echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.7'
+echo -e 'Theme designed & scripted by: \033[33mBuğra Keskin\033[0m - DevOps Engineer @  KubixCloud -v1.5.7'
 echo 'www.kubixcloud.com'
-echo 
-echo ' KubixCloud'
 echo
+
 # this comes from ubuntu /etc/update-motd.d
 
 echo -e '\033[31mSystem:\033[0m'
@@ -35,6 +34,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 echo -e '\033[31mShortcuts:\033[0m'
 echo -e '\033[33m-c\033[0m: Clear Screen, \033[33m-reboot\033[0m: Reboot, \033[33m-shut\033[0m: Shutdown, \033[33m-agud\033[0m: Update & Dist-upgrade, \033[33m-agar\033[0m: Apt autoremove, \033[33m-la\033[0m: List Folder(detailed), \033[33m-treeh\033[0m: List Folder Tree view with sizes, \033[33m-yabs\033[0m: Yet Another Bench Script, \033[33m-findbig\033[0m: Find Biggest file in folder ' 
 
+echo ' KubixCloud'
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
 
