@@ -4,6 +4,14 @@
 figlet  -f small Welcome to
 figlet  -f small KubixCloud
 
+
+echo 'Shell: ZSH with OHMYZSH framework and Starship Cross-shell Promt'
+echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.7'
+echo 'www.kubixcloud.com'
+echo ''
+echo ' KubixCloud'
+
+# this comes from ubuntu /etc/update-motd.d
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 
 if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
@@ -13,11 +21,16 @@ fi
 
 printf "Welcome to %s (%s %s %s)\n" "$DISTRIB_DESCRIPTION" "$(uname -o)" "$(uname -r)" "$(uname -m)"
 
-echo 'Shell: ZSH with OHMYZSH framework and Starship Cross-shell Promt'
-echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.7'
-echo 'www.kubixcloud.com'
-echo ''
-echo ' KubixCloud'
+#!/bin/sh
+
+stamp="/var/lib/update-notifier/updates-available"
+
+[ ! -r "$stamp" ] || cat "$stamp"
+
+find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/update-notifier/notify-updates-outdated
+
+### Finish motd
+
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
 
