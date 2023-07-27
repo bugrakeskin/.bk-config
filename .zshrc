@@ -4,6 +4,7 @@
 figlet  -f small Welcome to
 figlet  -f small KubixCloud
 
+printf "Welcome to %s (%s %s %s)\n" "$DISTRIB_DESCRIPTION" "$(uname -o)" "$(uname -r)" "$(uname -m)"
 
 echo 'Shell: ZSH with OHMYZSH framework and Starship Cross-shell Promt'
 echo 'Theme designed by: Buğra Keskin - DevOps SysAdmin v1.5.7'
