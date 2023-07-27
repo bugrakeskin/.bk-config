@@ -34,7 +34,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 ### Finish motd
 
 #Shortcuts
-echo 'Shortcuts : c:for Clear Screen , agud: sudo $APT update && sudo $APT dist-upgrade , agar: sudo $APT autoremove , ' | figlet
+echo 'Shortcuts : c:for Clear Screen , agud: sudo $APT update && sudo $APT dist-upgrade , agar: sudo $APT autoremove '
 #
 
 # Prompt changes 1-2-3-4-5
