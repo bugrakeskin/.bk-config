@@ -33,6 +33,10 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 
 ### Finish motd
 
+#Shortcuts
+echo 'Shortcuts : **C** for Clear Screen , **AGUD** for sudo $APT update && sudo $APT dist-upgrade'
+#
+
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
 
