@@ -77,6 +77,7 @@ alias exitto='echo "Good-Bye!, Press <z> for ZHS" && exit'
 alias update="cd '$HOME/github/.bk-config/' && git pull && cd '$HOME' && exitto"
 alias yabs="curl -sL yabs.sh | bash -s -- -fg"
 alias reboot="sudo reboot"
+alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
