@@ -58,7 +58,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME=""
 
 # add plugins
-plugins=(git z kubectl extract sudo zsh-interactive-cd ubuntu history debian command-not-found systemd )
+plugins=( z  extract sudo zsh-interactive-cd ubuntu history  command-not-found systemd copyfile )
 
 #export dump files
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST 
