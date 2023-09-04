@@ -45,9 +45,29 @@ printf "%-15s | %-20s | %10s\n" "Jane Doe" "Assistant Manager" "80,000"
 printf "%-15s | %-20s | %10s\n" "Bob Johnson" "Supervisor" "75,000"
 printf "%-15s | %-20s | %10s\n" "Alice Williams" "Clerk" "45,000"
 
-# Display the footer
-echo "------------------------------"
-printf "%s\n" "$FOOTER"
+#!/bin/bash
+
+# Define the data for each column
+NAMES=("John Smith" "Jane Doe" "Bob Johnson" "Alice Williams")
+JOB_TITLES=("Manager" "Assistant Manager" "Supervisor" "Clerk")
+SALARIES=("100,000" "80,000" "75,000" "45,000")
+
+# Define the delimiter
+DELIMITER="|"
+
+# Determine the width of each column
+NAME_WIDTH=15
+JOB_TITLE_WIDTH=20
+SALARY_WIDTH=10
+
+# Format the table header
+printf "%-${NAME_WIDTH}s ${DELIMITER} %-${JOB_TITLE_WIDTH}s ${DELIMITER} %-${SALARY_WIDTH}s\n" "Name" "Job Title" "Salary"
+
+# Format the table data
+for (( i=0; i<${#NAMES[@]}; i++ ))
+do
+  printf "%-${NAME_WIDTH}s ${DELIMITER} %-${JOB_TITLE_WIDTH}s ${DELIMITER} %-${SALARY_WIDTH}s\n" "${NAMES[$i]}" "${JOB_TITLES[$i]}" "${SALARIES[$i]}"
+done
 
 
 # Prompt changes 1-2-3-4-5
