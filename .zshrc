@@ -33,42 +33,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 
 #Shortcuts
 echo -e '\033[31mShortcuts:\033[0m'
-echo -e '\033[33m-c\033[0m: Clear Screen, \033[33m-reboot\033[0m: Reboot, \033[33m-shut\033[0m: Shutdown, \033[33m-mkcd\033[0m: Create a Folder and Go to Folder, \033[33m-rdir\033[0m: Remove Directory & All in it , \033[33m-agud\033[0m: Update & Dist-upgrade, \033[33m-agar\033[0m: Apt autoremove, \033[33m-la\033[0m: List Folder(detailed), \033[33m-treeh\033[0m: List Folder Tree view with sizes, \033[33m-yabs\033[0m: Yet Another Bench Script, \033[33m-findbig\033[0m: Find Biggest file in folder ' 
-
-#test
-#!/bin/bash
-
-# Display the table data
-printf "%-15s | %-20s | %10s\n" "Alias" "Command" "Note"
-printf "%-15s | %-20s | %10s\n" "-c" "clear" "Clear Screen"
-printf "%-15s | %-20s | %10s\n" "Jane Doe" "Assistant Manager" "80,000"
-printf "%-15s | %-20s | %10s\n" "Bob Johnson" "Supervisor" "75,000"
-printf "%-15s | %-20s | %10s\n" "Alice Williams" "Clerk" "45,000"
-
-#!/bin/bash
-
-# Define the data for each column
-NAMES=("John Smith" "Jane Doe" "Bob Johnson" "Alice Williams")
-JOB_TITLES=("Manager" "Assistant Manager" "Supervisor" "Clerk")
-SALARIES=("100,000" "80,000" "75,000" "45,000")
-
-# Define the delimiter
-DELIMITER="|"
-
-# Determine the width of each column
-NAME_WIDTH=15
-JOB_TITLE_WIDTH=20
-SALARY_WIDTH=10
-
-# Format the table header
-printf "%-${NAME_WIDTH}s ${DELIMITER} %-${JOB_TITLE_WIDTH}s ${DELIMITER} %-${SALARY_WIDTH}s\n" "Name" "Job Title" "Salary"
-
-# Format the table data
-for (( i=0; i<${#NAMES[@]}; i++ ))
-do
-  printf "%-${NAME_WIDTH}s ${DELIMITER} %-${JOB_TITLE_WIDTH}s ${DELIMITER} %-${SALARY_WIDTH}s\n" "${NAMES[$i]}" "${JOB_TITLES[$i]}" "${SALARIES[$i]}"
-done
-
+echo -e '\033[33m-c\033[0m: Clear Screen\t \033[33m-reboot\033[0m: Reboot\t \033[33m-shut\033[0m: Shutdown\t \033[33m-mkcd\033[0m: Create a Folder and Go to Folder\t \033[33m-rdir\033[0m: Remove Directory & All in it \t \033[33m-agud\033[0m: Update & Dist-upgrade\t \033[33m-agar\033[0m: Apt autoremove\t \033[33m-la\033[0m: List Folder(detailed)\t \033[33m-treeh\033[0m: List Folder Tree view with sizes\t \033[33m-yabs\033[0m: Yet Another Bench Script\t \033[33m-findbig\033[0m: Find Biggest file in folder ' 
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
