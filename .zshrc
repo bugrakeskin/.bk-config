@@ -38,18 +38,9 @@ echo -e '\033[33m-c\033[0m: Clear Screen, \033[33m-reboot\033[0m: Reboot, \033[3
 #test
 #!/bin/bash
 
-# Define the header and footer
-HEADER="Employee Salary Information"
-FOOTER="Salary data is from the current fiscal year."
-
-# Display the header
-echo "============================="
-printf "%30s\n" "$HEADER"
-echo "============================="
-
 # Display the table data
-printf "%-15s | %-20s | %10s\n" "Name" "Job Title" "Salary"
-printf "%-15s | %-20s | %10s\n" "John Smith" "Manager" "100,000"
+printf "%-15s | %-20s | %10s\n" "Alias" "Command" "Note"
+printf "%-15s | %-20s | %10s\n" "\033[33m-c\033[0m" "clear" "Clear Screen"
 printf "%-15s | %-20s | %10s\n" "Jane Doe" "Assistant Manager" "80,000"
 printf "%-15s | %-20s | %10s\n" "Bob Johnson" "Supervisor" "75,000"
 printf "%-15s | %-20s | %10s\n" "Alice Williams" "Clerk" "45,000"
