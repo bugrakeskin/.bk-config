@@ -37,7 +37,7 @@ echo -e '\033[33m-c\033[0m: Clear Screen, \033[33m-reboot\033[0m: Reboot, \033[3
 
 #test
 
-echo -e '\033[33m-c\033[0m: Clear Screen\t \033[33m-reboot\033[0m: Reboot '
+echo -e '\033[33m-c\033[0m: Clear Screen\t \033[33m-reboot\033[0m: Reboot\t \033[33m-shut\033[0m: Shutdown\t \033[33m-mkcd\033[0m: Create a Folder and Go to Folder\n \033[33m-rdir\033[0m: Remove Directory & All in it\t \033[33m-agud\033[0m: Update & Dist-upgrade\t \033[33m-agar\033[0m: Apt autoremove\t \033[33m-la\033[0m: List Folder(detailed)\n '
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
