@@ -39,8 +39,8 @@ echo -e '\033[33m-c\033[0m: Clear Screen, \033[33m-reboot\033[0m: Reboot, \033[3
 #!/bin/bash
 
 # Display the table data
-echo -e "%-15s | %-20s | %10s\n" "Alias" "Command" "Note"
-printf "%-15s | %-20s | %10s\n" "\033[33m-c\033[0m" "clear" "Clear Screen"
+printf "%-15s | %-20s | %10s\n" "Alias" "Command" "Note"
+printf "%-15s | %-20s | %10s\n" "echo -e '\033[33m-c\033[0m" "clear" "Clear Screen"
 printf "%-15s | %-20s | %10s\n" "Jane Doe" "Assistant Manager" "80,000"
 printf "%-15s | %-20s | %10s\n" "Bob Johnson" "Supervisor" "75,000"
 printf "%-15s | %-20s | %10s\n" "Alice Williams" "Clerk" "45,000"
