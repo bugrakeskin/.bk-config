@@ -38,19 +38,19 @@ $ruby\
 $rust\
 $scala\
 [🐧](fg:white bg:osbg)\
+$time\
 [](fg:gitpckbg)\
 
 $character
 """
 
 right_format = """
-🤖  \
+🤖 \
 $localip\
 $cmd_duration\
 $memory_usage\
 $docker_context\
 
-$time\
 
 """
 palette = 'BK'
@@ -152,7 +152,7 @@ format = '[  $duration ]($style)'
 
 [memory_usage]
 disabled = false
-threshold = 80
+threshold = 50
 symbol = ''
 style = 'yellow'
 format = '[ $symbol $ram]($style)'
