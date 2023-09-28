@@ -6,8 +6,9 @@ format = """
 
 [  ](fg:white bg:osbg)\
 [](fg:osbg bg:hnbg)\
-
-$username\
+[](fg:#86BBD8)\
+[](#86BBD8)\
+$username\
 [ on ](fg:iconcolor bg:hnbg)\
 $hostname\
 
