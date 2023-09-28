@@ -86,7 +86,7 @@ error_symbol = "[](red)"
 [os]
 format = "[ $symbol]($style)"
 style = "fg:black bg:blue"
-disabled = true
+disabled = false
 
 [hostname]
 ssh_only = false
