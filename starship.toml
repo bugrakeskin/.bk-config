@@ -144,7 +144,7 @@ format = '[ $time ]($style)'
 ssh_only = false
 style= "fg:white bg:rightbg"
 format = '[$localipv4   ]($style)'
-disabled = true
+disabled = false
 
 [cmd_duration]
 style = "yellow"
