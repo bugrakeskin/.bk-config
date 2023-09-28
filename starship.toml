@@ -1,3 +1,4 @@
+
 add_newline = false
 format = """
 
@@ -36,7 +37,7 @@ $rlang\
 $ruby\
 $rust\
 $scala\
-[ $os ](fg:white bg:osbg)\
+[$os](fg:white bg:osbg)\
 [](fg:gitpckbg)\
 
 $character
