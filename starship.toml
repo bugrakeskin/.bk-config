@@ -3,8 +3,8 @@ format = """
 
 [](fg:osbg)\
 
-[  ](fg:white bg:osbg)\
-[$os]
+[  $os ](fg:white bg:osbg)\
+
 [](fg:osbg bg:hnbg)\
 
 $username\
