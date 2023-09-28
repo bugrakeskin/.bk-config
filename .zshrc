@@ -53,7 +53,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://.github.com/ohmyzsh/ohmyzsh/wiki/Themes
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME=""
 
 # add plugins
@@ -68,18 +68,18 @@ alias c="clear"
 alias chistory= "history -c"
 alias m="sudo micro"
 alias shut="sudo shutdown now"
-alias star="micro ~/.github/.bk-config/starship.toml"
-alias ohmyzsh="micro ~/.github/.bk-config/.zshrc"
+alias star="micro ~/github/.bk-config/starship.toml"
+alias ohmyzsh="micro ~/github/.bk-config/.zshrc"
 alias findbig="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h"
 alias exitto='echo "Good-Bye!, Press <z> for ZHS" && exit'
-alias update="cd '$HOME/.github/.bk-config/' && git pull && cd '$HOME' && exitto"
+alias update="cd '$HOME/github/.bk-config/' && git pull && cd '$HOME' && exitto"
 alias yabs="curl -sL yabs.sh | bash -s -- -fg"
 alias reboot="sudo reboot"
 alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
 alias rdir='sudo rm -rf'
 
-export STARSHIP_CONFIG=~/.github/.bk-config/starship.toml
+export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
 
 # Set list of themes to pick from when loading at random
