@@ -38,13 +38,14 @@ $ruby\
 $rust\
 $scala\
 [🐧](fg:white bg:osbg)\
-$time\
+
 [](fg:gitpckbg)\
 
 $character
 """
 
 right_format = """
+$time\
 🤖 \
 $localip\
 $cmd_duration\
