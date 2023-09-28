@@ -2,9 +2,9 @@ add_newline = false
 format = """
 
 [](fg:osbg)\
-[$os]
-[  ](fg:white bg:osbg)\
 
+[  ](fg:white bg:osbg)\
+[$os]
 [](fg:osbg bg:hnbg)\
 
 $username\
@@ -84,8 +84,7 @@ success_symbol = "[](yellow)"
 error_symbol = "[](red)"
 
 [os]
-format = "[ $symbol]($style)"#
-#format = "[ $os]($style)"
+format = "[ $symbol]($style)"
 style = "fg:black bg:blue"
 disabled = true
 
