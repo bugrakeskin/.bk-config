@@ -50,10 +50,9 @@ right_format = """
 $time\
 🤖 \
 $localip\
-$cmd_duration\
 $memory_usage\
 $docker_context\
-
+$cmd_duration\
 
 """
 palette = 'BK'
