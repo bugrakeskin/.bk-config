@@ -37,6 +37,7 @@ $rlang\
 $ruby\
 $rust\
 $scala\
+[ $os ](fg:white bg:osbg)\
 [](fg:gitpckbg)\
 
 $character
