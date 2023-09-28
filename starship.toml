@@ -83,7 +83,7 @@ error_symbol = "[](red)"
 
 [os]
 format = "[ $symbol]($style)"
-style = "fg:black bg:blue"
+style = "fg:white bg:osbg"
 disabled = false
 
 [hostname]
