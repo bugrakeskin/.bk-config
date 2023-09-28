@@ -45,6 +45,7 @@ $character
 
 right_format = """
 🤖  \
+$localip\
 $cmd_duration\
 $memory_usage\
 $docker_context\
