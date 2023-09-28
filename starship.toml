@@ -4,7 +4,6 @@ format = """
 [](fg:osbg)\
 
 [  ](fg:white bg:osbg)\
-[ $os ](fg:white bg:osbg)\
 [](fg:osbg bg:hnbg)\
 
 $username\
