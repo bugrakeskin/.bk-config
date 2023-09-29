@@ -37,6 +37,26 @@ echo -e '\033[33m-c\033[0m: Clear Screen\t \033[33m-reboot\033[0m: Reboot\t \033
 echo -e '\033[33m-rdir\033[0m: Remove Directory & All in it \t \033[33m-agud\033[0m: Update & Dist-upgrade\t \033[33m-agar\033[0m: Apt autoremove\t \033[33m-la\033[0m: List Folder(detailed)\n'
 echo -e '\033[33m-treeh\033[0m: List Folder Tree view with sizes\t \033[33m-yabs\033[0m: Yet Another Bench Script\t \033[33m-findbig\033[0m: Find Biggest file in folder ' 
 
+
++----------+----------------------------------+
+| Command  |               Info               |
++----------+----------------------------------+
+| -c       | Clear Screen                     |
+| -shut    | Shutdown                         |
+| -mkcd    | Create Fodler & cd               |
+| -reboot  | Reboot                           |
+| -up      | Update&Upgrade&A.remove          |
+| -yabs    | Yet another bench script         |
+| -agud    | Update & Dist-upgrade            |
+| -agar    | Autoremove                       |
+| -treeh   | List Folder Tree view with sizes |
+| -findbig | Find Biggest file in folder      |
++----------+----------------------------------+
+
+
+
+
+
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
 
