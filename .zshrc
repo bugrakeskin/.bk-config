@@ -32,12 +32,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 ### Finish motd
 
 #Shortcuts
-echo -e '\033[31mShortcuts:\033[0m'
-echo -e '\033[33m-c\033[0m: Clear Screen\t \033[33m-reboot\033[0m: Reboot\t \033[33m-shut\033[0m: Shutdown\t \033[33m-mkcd\033[0m: Create a Folder and Go to Folder\n'
-echo -e '\033[33m-rdir\033[0m: Remove Directory & All in it \t \033[33m-agud\033[0m: Update & Dist-upgrade\t \033[33m-agar\033[0m: Apt autoremove\t \033[33m-la\033[0m: List Folder(detailed)\n'
-echo -e '\033[33m-treeh\033[0m: List Folder Tree view with sizes\t \033[33m-yabs\033[0m: Yet Another Bench Script\t \033[33m-findbig\033[0m: Find Biggest file in folder ' 
-
-
+echo
 echo '+----------+----------------------------------+'
 echo '| Command  |               Info               |'
 echo '+----------+----------------------------------+'
@@ -52,10 +47,6 @@ echo '| -agar    | Autoremove                       |'
 echo '| -treeh   | List Folder Tree view with sizes |'
 echo '| -findbig | Find Biggest file in folder      |'
 echo '+----------+----------------------------------+'
-
-
-
-
 
 # Prompt changes 1-2-3-4-5
 echo '\e[5 q' 
