@@ -79,7 +79,7 @@ alias reboot="sudo reboot"
 alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
 alias rdir='sudo rm -rf'
 alias dp='docker ps'
-alias up='sudo apt update && sudo apt dist-upgrade -y'
+alias up='sudo apt update && sudo apt dist-upgrade && sudo apt autoremove -y'
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
