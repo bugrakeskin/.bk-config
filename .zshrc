@@ -38,20 +38,20 @@ echo -e '\033[33m-rdir\033[0m: Remove Directory & All in it \t \033[33m-agud\033
 echo -e '\033[33m-treeh\033[0m: List Folder Tree view with sizes\t \033[33m-yabs\033[0m: Yet Another Bench Script\t \033[33m-findbig\033[0m: Find Biggest file in folder ' 
 
 
-+----------+----------------------------------+
-| Command  |               Info               |
-+----------+----------------------------------+
-| -c       | Clear Screen                     |
-| -shut    | Shutdown                         |
-| -mkcd    | Create Fodler & cd               |
-| -reboot  | Reboot                           |
-| -up      | Update&Upgrade&A.remove          |
-| -yabs    | Yet another bench script         |
-| -agud    | Update & Dist-upgrade            |
-| -agar    | Autoremove                       |
-| -treeh   | List Folder Tree view with sizes |
-| -findbig | Find Biggest file in folder      |
-+----------+----------------------------------+
+echo '+----------+----------------------------------+'
+echo '| Command  |               Info               |'
+echo '+----------+----------------------------------+'
+echo '| -c       | Clear Screen                     |'
+echo '| -shut    | Shutdown                         |'
+echo '| -mkcd    | Create Fodler & cd               |'
+echo '| -reboot  | Reboot                           |'
+echo '| -up      | Update&Upgrade&A.remove          |'
+echo '| -yabs    | Yet another bench script         |'
+echo '| -agud    | Update & Dist-upgrade            |'
+echo '| -agar    | Autoremove                       |'
+echo '| -treeh   | List Folder Tree view with sizes |'
+echo '| -findbig | Find Biggest file in folder      |'
+echo '+----------+----------------------------------+'
 
 
 
