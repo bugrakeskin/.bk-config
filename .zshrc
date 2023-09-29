@@ -70,8 +70,6 @@ alias c="clear"
 alias chistory= "history -c"
 alias m="sudo micro"
 alias shut="sudo shutdown now"
-alias star="micro ~/github/.bk-config/starship.toml"
-alias ohmyzsh="micro ~/github/.bk-config/.zshrc"
 alias findbig="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h"
 alias exitto='echo "Good-Bye!, Press <z> for ZHS" && exit'
@@ -80,6 +78,8 @@ alias yabs="curl -sL yabs.sh | bash -s -- -fg"
 alias reboot="sudo reboot"
 alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
 alias rdir='sudo rm -rf'
+alias dp='docker ps'
+alias up='sudo apt update && sudo apt dist-upgrade -y'
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
