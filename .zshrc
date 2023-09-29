@@ -32,6 +32,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 ### Finish motd
 
 #Shortcuts
+echo -e '\033[35mShortcuts:\033[0m'
 echo
 echo '+-------------+----------------------------------+'
 echo '| Command     |               Info               |'
