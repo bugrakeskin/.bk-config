@@ -136,7 +136,7 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "yellow"
-format = '[🅣🅘🅜🅔 $time ]($style)'
+format = '[𝕥𝕚𝕞𝕖 $time ]($style)'
 
 [localip]
 ssh_only = false
