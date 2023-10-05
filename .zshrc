@@ -98,7 +98,7 @@ alias reboot="sudo reboot"
 alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
 alias rdir='sudo rm -rf'
 alias dp='docker ps'
-alias up='sudo apt update && sudo apt dist-upgrade && sudo apt autoremove -y'
+alias up='sudo apt update -y && sudo apt dist-upgrade -y && sudo apt autoremove -y'
 alias caty='pygmentize -g -O style=zenburn'
 alias ct='colortail -f'
 alias dcu='docker compose up'
