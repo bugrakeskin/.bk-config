@@ -47,6 +47,8 @@ echo '| -agar       | Autoremove                       |'
 echo '| -sc-restart | sudo systemctl restart           |'
 echo '| -sc-status  | sudo systemctl status            |'
 echo '| -dp         | docker ps                        |'
+echo '| -dcu        | docker compose up                |'
+echo '| -dcd        | docker compose down              |'
 echo '| -treeh      | List Folder Tree view with sizes |'
 echo '| -ct         | Colortail -f                     |'
 echo '| -caty       | Color cat                        |'
@@ -99,7 +101,8 @@ alias dp='docker ps'
 alias up='sudo apt update && sudo apt dist-upgrade && sudo apt autoremove -y'
 alias caty='pygmentize -g -O style=zenburn'
 alias ct='colortail -f'
-
+alias dcu='docker compose up'
+alias dcd='docker compose down'
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
