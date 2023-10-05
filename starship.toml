@@ -154,10 +154,11 @@ format = '[  $duration ]($style)'
 
 [memory_usage]
 disabled = false
-threshold = 50
-symbol = ''
+threshold = -1
+symbol = ''
 style = 'yellow'
-format = '[ $symbol $ram]($style)'
+format = '[ $symbol $ram(:$swap)]($style)'
+
 
 [docker_context]
 symbol = ""
