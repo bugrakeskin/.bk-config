@@ -96,7 +96,9 @@ alias rdir='sudo rm -rf'
 alias dp='docker ps'
 alias up='sudo apt update && sudo apt dist-upgrade && sudo apt autoremove -y'
 alias caty='pygmentize -g -O style=zenburn'
-alias log='sed --unbuffered \ -e 's/\(.*Finish.*\)/\o033[32m\1\o033[39m/' \ -e 's/\(.*Error.*\)/\o033[31m\1\o033[39m/''
+alias log='awk '
+  /INFO/ {print "\033[32m" $0 "\033[39m"}
+  /SEVERE/ {print "\033[31m" $0 "\033[39m"}'
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
