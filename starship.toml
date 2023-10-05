@@ -99,7 +99,7 @@ format = '[⚡$hostname ]($style)'
 [username]
 style_user = "fg:hnfg bg:unbg"
 style_root = "fg:hnfg bg:unbg"
-format = '[  $user]($style)'
+format = '[ 🐧 $user]($style)'
 
 [directory]
 style = "fg:dirfg bg:dirbg"
@@ -140,7 +140,7 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:rightfg bg:none"
-format = '[ $time ]($style)'
+format = '[⌚ $time ]($style)'
 
 [localip]
 ssh_only = false
