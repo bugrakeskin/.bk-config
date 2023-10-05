@@ -12,7 +12,7 @@ echo
 
 # this comes from ubuntu /etc/update-motd.d
 
-echo -e '\033[31mSystem:\033[0m'
+echo -e '\033[35mSystem:\033[0m'
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 
 if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
