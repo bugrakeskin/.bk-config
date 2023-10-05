@@ -155,7 +155,7 @@ format = '[  $duration ]($style)'
 [memory_usage]
 disabled = false
 threshold = -1
-symbol = ''
+symbol = '🐏'
 style = 'yellow'
 format = '[ $symbol $ram(:$swap)]($style)'
 
