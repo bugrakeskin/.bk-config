@@ -46,7 +46,6 @@ $character
 
 right_format = """
 $time\
-🅘🅟 \
 $localip\
 $memory_usage\
 $docker_context\
@@ -115,7 +114,6 @@ truncation_symbol = " …/ "
 "Pictures" = "   Pictures"
 "Projects" = "   Projects"
 
-
 [git_branch]
 symbol = "   "
 style = "fg:gitfg bg:gitbg"
@@ -142,8 +140,8 @@ format = '[🅣🅘🅜🅔 $time ]($style)'
 
 [localip]
 ssh_only = false
-style= "fg:white bg:rightbg"
-format = '[$localipv4]($style)'
+style= "yellow"
+format = '[🅘🅟 $localipv4]($style)'
 disabled = false
 
 [cmd_duration]
