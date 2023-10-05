@@ -48,6 +48,8 @@ echo '| -sc-restart | sudo systemctl restart           |'
 echo '| -sc-status  | sudo systemctl status            |'
 echo '| -dp         | docker ps                        |'
 echo '| -treeh      | List Folder Tree view with sizes |'
+echo '| -ct         | Colortail -f                     |'
+echo '| -caty       | Color cat                        |'
 echo '| -findbig    | Find Biggest file in folder      |'
 echo '| -yabs       | Yet another bench script         |'
 echo '+-------------+----------------------------------+'
@@ -96,6 +98,7 @@ alias rdir='sudo rm -rf'
 alias dp='docker ps'
 alias up='sudo apt update && sudo apt dist-upgrade && sudo apt autoremove -y'
 alias caty='pygmentize -g -O style=zenburn'
+alias ct='colortail -f'
 
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
