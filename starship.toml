@@ -8,7 +8,7 @@ format = """
 [](fg:osbg bg:hnbg)\
 
 $username\
-[ on ](fg:iconcolor bg:hnbg)\
+[on](fg:iconcolor bg:hnbg)\
 $hostname\
 
 [](fg:unbg bg:dirbg)\
@@ -104,13 +104,13 @@ format = '[ $user ]($style)'
 [directory]
 style = "fg:dirfg bg:dirbg"
 truncate_to_repo = false
-read_only = " 🔒"
+read_only = " 🙈"
 format = "[$read_only $path ]($style)"
 truncation_length = 4
 truncation_symbol = " …/ " 
 
 [directory.substitutions]
-"~" = "🔓 ~"
+"~" = "🐵 ~"
 "Documents" = "  Documents"
 "Downloads" = "   Downloads"
 "Music" = "   Music"
