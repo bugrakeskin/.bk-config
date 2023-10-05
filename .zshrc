@@ -86,7 +86,6 @@ export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 source $ZSH/oh-my-zsh.sh
 
 alias c="clear"
-alias chistory= "history -c"
 alias m="sudo micro"
 alias shut="sudo shutdown now"
 alias findbig="sudo du -hsx * | sort -rh | head -10"
@@ -100,7 +99,7 @@ alias rdir='sudo rm -rf'
 alias dp='docker ps'
 alias up='sudo apt update -y && sudo apt dist-upgrade -y && sudo apt autoremove -y'
 alias caty='pygmentize -g -O style=zenburn'
-alias ct='colortail -f'
+alias ct='sudo colortail -f'
 alias dcu='docker compose up'
 alias dcd='docker compose down'
 
