@@ -96,6 +96,7 @@ alias rdir='sudo rm -rf'
 alias dp='docker ps'
 alias up='sudo apt update && sudo apt dist-upgrade && sudo apt autoremove -y'
 alias caty='pygmentize -g -O style=zenburn'
+alias log='pygmentize -s -l sql'
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
