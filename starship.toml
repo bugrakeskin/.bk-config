@@ -46,7 +46,7 @@ $character
 
 right_format = """
 $time\
-🌐 \
+🅘🅟 \
 $localip\
 $memory_usage\
 $docker_context\
@@ -138,7 +138,7 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:rightfg bg:none"
-format = '[🕛 $time ]($style)'
+format = '[🅣🅘🅜🅔 $time ]($style)'
 
 [localip]
 ssh_only = false
