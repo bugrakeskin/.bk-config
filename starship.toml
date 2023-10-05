@@ -39,8 +39,6 @@ $rust\
 $scala\
 $shell\
 $sudo\
-[👨‍💻](fg:gitpckbg)\
-
 [](fg:gitpckbg)\
 
 $character
@@ -48,7 +46,7 @@ $character
 
 right_format = """
 $time\
-🤖 \
+🌐 \
 $localip\
 $memory_usage\
 $docker_context\
