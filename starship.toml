@@ -45,13 +45,15 @@ $character
 """
 
 right_format = """
-[](bg:dirbg)\
+[](fg:osbg)\
+[  ](fg:white bg:osbg)\
 $time\
 $localip\
 $memory_usage\
 $docker_context\
 $cmd_duration\
-[](bg:dirbg)\
+[](fg:osbg)\
+[  ](fg:white bg:osbg)\
 """
 palette = 'BK'
 [palettes.BK]
