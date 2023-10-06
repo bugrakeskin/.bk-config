@@ -45,7 +45,7 @@ echo '| -up         | Update & Upgrade & A.remove      |        | -ct         | 
 echo '| -agud       | Update & Dist-upgrade            |        | -caty       | Color cat                        |'
 echo '| -agar       | Autoremove                       |        | -findbig    | Find Biggest file in folder      |'
 echo '| -sc-restart | sudo systemctl restart           |        +-------------+----------------------------------+'
-echo '| -sc-status  | sudo systemctl status            |        
+echo '| -sc-status  | sudo systemctl status            |'        
 echo '| -ul         | exa -l --icons -a -g             |'
 echo '| -kl         | exa --icons -a -g                |'
 echo '+-------------+----------------------------------+'
