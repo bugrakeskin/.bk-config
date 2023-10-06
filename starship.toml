@@ -52,7 +52,7 @@ $localip\
 $memory_usage\
 $docker_context\
 $cmd_duration\
-[](fg:dirbg bg:dirbg)\
+[](fg:dirbg bg:osbg)\
 
 
 """
