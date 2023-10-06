@@ -45,12 +45,13 @@ $character
 """
 
 right_format = """
+[](fg:osbg)\
 $time\
 $localip\
 $memory_usage\
 $docker_context\
 $cmd_duration\
-
+[](fg:gitpckbg)\
 """
 palette = 'BK'
 [palettes.BK]
@@ -152,7 +153,7 @@ format = '[ ⌛ $duration ]($style)'
 disabled = false
 threshold = -1
 symbol = '🅡🅐🅜'
-style = 'yellow'
+style = "fg:dirfg bg:dirbg"
 format = '[ $symbol $ram(:$swap)]($style)'
 
 
