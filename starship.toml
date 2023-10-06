@@ -53,7 +53,7 @@ $memory_usage\
 $docker_context\
 $cmd_duration\
 [](fg:dirbg bg:osbg)\
-[](fg:osbg bg:dirbg)\
+[]( bg:dirbg)\
 
 
 """
