@@ -3,7 +3,6 @@ add_newline = false
 format = """
 
 [](fg:osbg)\
-
 [  ](fg:white bg:osbg)\
 [](fg:osbg bg:hnbg)\
 
@@ -47,6 +46,7 @@ $character
 right_format = """
 [](fg:osbg)\
 [  ](fg:white bg:osbg)\
+[](fg:osbg bg:dirbg)\
 $time\
 $localip\
 $memory_usage\
