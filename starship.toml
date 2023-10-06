@@ -53,8 +53,8 @@ $memory_usage\
 $docker_context\
 $cmd_duration\
 [](fg:osbg bg:dirbg)\
-[](fg:osbg)\
 [  ](fg:white bg:osbg)\
+[](fg:osbg)\
 """
 palette = 'BK'
 [palettes.BK]
