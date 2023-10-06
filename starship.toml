@@ -52,8 +52,8 @@ $localip\
 $memory_usage\
 $docker_context\
 $cmd_duration\
-[](fg:osbg)\
 [](fg:osbg bg:dirbg)\
+[](fg:osbg)\
 [  ](fg:white bg:osbg)\
 """
 palette = 'BK'
@@ -140,12 +140,12 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:dirfg bg:dirbg"
-format = '[🌙 $time ]($style)'
+format = '[ $time ]($style)'
 
 [localip]
 ssh_only = false
 style = "fg:dirfg bg:dirbg"
-format = '[🅘🅟 $localipv4]($style)'
+format = '[ $localipv4 ]($style)'
 disabled = false
 
 [cmd_duration]
@@ -155,7 +155,7 @@ format = '[ ⌛ $duration ]($style)'
 [memory_usage]
 disabled = false
 threshold = -1
-symbol = '🅡🅐🅜'
+symbol = '🅡'
 style = "fg:dirfg bg:dirbg"
 format = '[ $symbol $ram(:$swap)]($style)'
 
