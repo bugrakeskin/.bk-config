@@ -140,7 +140,7 @@ format = '[ $time ]($style)'
 [localip]
 ssh_only = false
 style = "fg:rightfg bg:rightbg"
-format = '[󰲐 $localipv4 ]($style)'
+format = '[🕸️ $localipv4 ]($style)'
 disabled = false
 
 [cmd_duration]
@@ -151,7 +151,7 @@ style = "fg:rightfg bg:rightbg"
 style = "fg:rightfg bg:rightbg"
 disabled = false
 threshold = -1
-symbol = '󱖫'
+symbol = '📜'
 format = '[$symbol $ram(:$swap)]($style)'
 
 
