@@ -45,11 +45,11 @@ $character
 right_format = """
 
 $time\
-[|](fg:seperator)\
+[ | ](fg:seperator)\
 $localip\
-[|](fg:seperator)\
+[ | ](fg:seperator)\
 $memory_usage\
-[|](fg:seperator)\
+[ | ](fg:seperator)\
 $cmd_duration\
 
 """
