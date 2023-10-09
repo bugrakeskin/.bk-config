@@ -57,22 +57,22 @@ palette = 'BK'
 [palettes.BK]
 
 1bg = '#D7A449'
-1fg = '#323E49'
+1fg = '#03081B'
 
 2bg = '#03081B'
 2fg = '#ECECF7'
 
 3bg = '#E0C28D'
-3fg = '#323E49'
+3fg = '#03081B'
 
 4bg = '#212B50'
-4fg = '#D7A449'
+4fg = '#03081B'
 
 5bg = '#E8E2D8'
-5fg = '#D7A449'
+5fg = '#03081B'
 
 6bg = '#E8E2D8'
-6fg = '#D7A449'
+6fg = '#03081B'
 
 rightbg = 'DAD5E3'
 rightfg = '#DAD5E3'
