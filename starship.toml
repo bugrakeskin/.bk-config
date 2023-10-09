@@ -63,13 +63,13 @@ palette = 'BK'
 3fg = '#49515A'
 
 4bg = '#6D6A75'
-4fg = '#49515A'
+4fg = '#FCF3E7'
 
 5bg = '#A8A5B1'
-5fg = '#FCF3E7'
+5fg = '#49515A'
 
 6bg = '#DAD5E3'
-6fg = '#FCF3E7'
+6fg = '#49515A'
 
 rightbg = 'DAD5E3'
 rightfg = '#DAD5E3'
