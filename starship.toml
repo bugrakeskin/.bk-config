@@ -69,10 +69,10 @@ palette = 'BK'
 5fg = '#FCF3E7'
 
 6bg = '#DAD5E3'
-6fg = '#49515A'
+6fg = '#FCF3E7'
 
 rightbg = 'DAD5E3'
-rightfg = '#49515A'
+rightfg = '#FCF3E7'
 iconcolor = '#BA7333'
 
 
