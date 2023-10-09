@@ -59,19 +59,19 @@ palette = 'BK'
 1bg = '#D7A449'
 1fg = '#323E49'
 
-2bg = '#323E49'
+2bg = '#03081B'
 2fg = '#ECECF7'
 
-3bg = '#D7A449'
+3bg = '#E0C28D'
 3fg = '#323E49'
 
-4bg = '#4E5D6C'
+4bg = '#212B50'
 4fg = '#D7A449'
 
-5bg = '#8FA1B5'
+5bg = '#E8E2D8'
 5fg = '#D7A449'
 
-6bg = '#ECECF7'
+6bg = '#E8E2D8'
 6fg = '#D7A449'
 
 rightbg = 'DAD5E3'
