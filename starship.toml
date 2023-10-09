@@ -2,23 +2,23 @@
 add_newline = false
 format = """
 
-[](fg:osbg)\
-[  ](fg:white bg:osbg)\
-[](fg:osbg bg:hnbg)\
+[](fg:1bg)\
+[  ](fg:white bg:1bg)\
+[](fg:1bg bg:2bg)\
 
 $username\
-[on](fg:iconcolor bg:hnbg)\
+[on](fg:iconcolor bg:2bg)\
 $hostname\
 
-[](fg:unbg bg:dirbg)\
+[](fg:2bg bg:3bg)\
 
 $directory\
 
-[](fg:dirbg bg:gitbg)\
+[](fg:3bg bg:4bg)\
 $git_branch\
-[](fg:gitbg bg:gitstbg)\
+[](fg:4bg bg:5bg)\
 $git_status\
-[](fg:gitstbg bg:gitpckbg)\
+[](fg:5bg bg:6bg)\
 $c\
 $dart\
 $elixir\
@@ -38,22 +38,22 @@ $rust\
 $scala\
 $shell\
 $sudo\
-[](fg:gitpckbg)\
+[](fg:6bg)\
 
 $character
 """
 
 right_format = """
-[](fg:osbg)\
-[  ](fg:white bg:osbg)\
-[](fg:osbg bg:dirbg)\
+[](fg:1bg)\
+[  ](fg:white bg:1bg)\
+[](fg:1bg bg:3bg)\
 $time\
 $localip\
 $memory_usage\
 $docker_context\
 $cmd_duration\
-[](fg:dirbg bg:osbg)\
-[](fg:osbg)\
+[](fg:3bg bg:1bg)\
+[](fg:1bg)\
 
 
 
@@ -61,23 +61,24 @@ $cmd_duration\
 """
 palette = 'BK'
 [palettes.BK]
-osbg = '#01B1D6'
-osfg = '#FFFFFF'
-hnbg = '#005F92'
-hnfg = '#f1f7ff'
-unbg = '#005F92'
-unfg = '#39311D'
-dirbg = '#E7D595'
-dirfg = '#003551'
 
-gitbg = '#ECCCB2'
-gitfg = '#39311D'
+1bg = '#DEB841'
+1fg = '#FFFFFF'
 
-gitstbg = '#003551'
-gitstfg = '#39311D'
+2bg = '#37323E'
+2fg = '#f1f7ff'
 
-gitpckbg = '#39311D'
-gitpckfg = '#ECE8DD'
+3bg = '#DEB841'
+3fg = '#003551'
+
+4bg = '#6D6A75'
+4fg = '#39311D'
+
+5bg = '#A8A5B1'
+5fg = '#39311D'
+
+6bg = '#DAD5E3'
+6fg = '#ECE8DD'
 
 rightbg = 'none'
 rightfg = '#EEE3CB'
@@ -92,21 +93,21 @@ error_symbol = "[](red)"
 
 [os]
 format = "[ $symbol]($style)"
-style = "fg:white bg:osbg"
+style = "fg:white bg:1bg"
 disabled = false
 
 [hostname]
 ssh_only = false
-style = "fg:hnfg bg:hnbg"
+style = "fg:2fg bg:2bg"
 format = '[ $hostname ]($style)'
 
 [username]
-style_user = "fg:hnfg bg:unbg"
-style_root = "fg:hnfg bg:unbg"
+style_user = "fg:2fg bg:2bg"
+style_root = "fg:2fg bg:2bg"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:dirfg bg:dirbg"
+style = "fg:3fg bg:3bg"
 truncate_to_repo = false
 read_only = " 🔐"
 format = "[$read_only $path ]($style)"
@@ -123,7 +124,7 @@ truncation_symbol = " …/ "
 
 [git_branch]
 symbol = "   "
-style = "fg:gitfg bg:gitbg"
+style = "fg:4fg bg:4bg"
 format = '[$symbol $branch ]($style)'
 
 [git_status]
@@ -136,120 +137,120 @@ modified = "  $count"
 staged = "  $count"
 renamed = "  $count"
 untracked = "  $count"
-style = "fg:gitstfg bg:gitstbg"
+style = "fg:5fg bg:5bg"
 format = '[$all_status$ahead_behind ]($style)'
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:dirfg bg:dirbg"
+style = "fg:3fg bg:3bg"
 format = '[ $time ]($style)'
 
 [localip]
 ssh_only = false
-style = "fg:dirfg bg:dirbg"
+style = "fg:3fg bg:3bg"
 format = '[ $localipv4 ]($style)'
 disabled = false
 
 [cmd_duration]
-style = "fg:dirfg bg:dirbg"
+style = "fg:3fg bg:3bg"
 format = '[ ⌛ $duration ]($style)'
 
 [memory_usage]
 disabled = false
 threshold = -1
 symbol = '🅡'
-style = "fg:dirfg bg:dirbg"
+style = "fg:3fg bg:3bg"
 format = '[ $symbol $ram(:$swap)]($style)'
 
 
 [docker_context]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol $context]($style) $path'
 
 [c]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [dart]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [elixir]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [elm]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [golang]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [haskell]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [java]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [julia]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [kotlin]
 symbol = "🅺"
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [lua]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [nodejs]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [nim]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [python]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [rlang]
 symbol = "ﳒ"
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [ruby]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [rust]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
 [scala]
 symbol = ""
-style = "fg:gitpckfg  bg:gitpckbg"
+style = "fg:6fg  bg:6bg"
 format = '[ $symbol ($version)]($style)'
 
