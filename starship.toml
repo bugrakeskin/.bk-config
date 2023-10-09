@@ -45,7 +45,7 @@ $character
 right_format = """
 
 $time\
-[ | ](fg:seperator)\
+[ℹ️ | ](fg:seperator)\
 $localip\
 [ | ](fg:seperator)\
 $memory_usage\
@@ -147,7 +147,7 @@ format = '[$localipv4]($style)'
 disabled = false
 
 [cmd_duration]
-format = '[$duration]($style)'
+format = '[⌛ $duration ]($style)'
 style = "fg:rightfg bg:rightbg"
 
 [memory_usage]
