@@ -52,8 +52,8 @@ $localip\
 $memory_usage\
 $docker_context\
 $cmd_duration\
-[](fg:osbg bg:gitpckbg)\
-[](fg:gitpckbg)\
+[](fg:dirbg bg:osbg)\
+[](fg:osbg)\
 
 
 
