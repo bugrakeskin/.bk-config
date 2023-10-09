@@ -61,14 +61,14 @@ $cmd_duration\
 """
 palette = 'BK'
 [palettes.BK]
-osbg = '#4C4533'
-osfg = '#C4B6B6'
-hnbg = '#3d3829'
+osbg = '#01B1D6'
+osfg = '#F5F0DD'
+hnbg = '#005F92'
 hnfg = '#f1f7ff'
-unbg = '#3d3829'
+unbg = '#005F92'
 unfg = '#39311D'
-dirbg = '#F5E8C7'
-dirfg = '#39311D'
+dirbg = '#E7D595'
+dirfg = '#003551'
 
 gitbg = '#ECCCB2'
 gitfg = '#39311D'
