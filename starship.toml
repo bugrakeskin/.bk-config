@@ -43,7 +43,7 @@ $sudo\
 $character
 """
 right_format = """
-[📟](fg:seperator)\
+[📟 ](fg:seperator)\
 [{](fg:seperator)\
 $time\
 [,](fg:seperator)\
