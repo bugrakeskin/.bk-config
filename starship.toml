@@ -56,7 +56,7 @@ $cmd_duration\
 palette = 'BK'
 [palettes.BK]
 
-1bg = '#684419'
+1bg = '#695252'
 1fg = '#E8E2D8'
 
 2bg = '#272121'
