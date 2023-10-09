@@ -44,14 +44,14 @@ $character
 """
 right_format = """
 [📟 ](fg:seperator)\
+[(](fg:seperator)\
 $time\
-[ | ](fg:seperator)\
+[,](fg:seperator)\
 $localip\
-[ | ](fg:seperator)\
+[,](fg:seperator)\
 $memory_usage\
-[ | ](fg:seperator)\
 $cmd_duration\
-
+[)](fg:seperator)\
 """
 palette = 'BK'
 [palettes.BK]
@@ -147,7 +147,7 @@ format = '[$localipv4]($style)'
 disabled = false
 
 [cmd_duration]
-format = '[⌛ $duration ]($style)'
+format = '[ | ⌛ $duration ]($style)'
 style = "fg:rightfg bg:rightbg"
 
 [memory_usage]
