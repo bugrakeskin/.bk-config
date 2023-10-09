@@ -43,14 +43,17 @@ $sudo\
 $character
 """
 right_format = """
-[||](fg:1fg bg:1bg)\
+[||](fg:1bg)\
 $time\
-[|](fg:1fg bg:1bg)\
+[|](fg:1bg)\
 $localip\
+[|](fg:1bg)\
 $memory_usage\
+[|](fg:1bg)\
 $docker_context\
+[|](fg:1bg)\
 $cmd_duration\
-[||](fg:1fg bg:1bg)\
+[||](fg:1bg)\
 """
 palette = 'BK'
 [palettes.BK]
@@ -137,23 +140,23 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:rightfg bg:rightbg"
-format = '[🕰️  $time ]($style)'
+format = '[$time]($style)'
 
 [localip]
 ssh_only = false
 style = "fg:rightfg bg:rightbg"
-format = '[🔗 $localipv4 ]($style)'
+format = '[$localipv4]($style)'
 disabled = false
 
 [cmd_duration]
-format = '[⌛ $duration ]($style)'
+format = '[$duration]($style)'
 style = "fg:rightfg bg:rightbg"
 
 [memory_usage]
 style = "fg:rightfg bg:rightbg"
 disabled = false
 threshold = -1
-format = '[⚙️ $ram(:$swap)]($style)'
+format = '[$ram(:$swap)]($style)'
 
 
 [docker_context]
