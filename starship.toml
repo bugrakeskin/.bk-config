@@ -3,7 +3,7 @@ add_newline = false
 format = """
 
 [](fg:1bg)\
-[  ](fg:1fg bg:1bg)\
+[  ](fg:seperator bg:1bg)\
 [](fg:1bg bg:2bg)\
 
 $username\
