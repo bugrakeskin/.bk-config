@@ -43,7 +43,7 @@ $sudo\
 $character
 """
 right_format = """
-[||](fg:1bg)\
+
 $time\
 [|](fg:1bg)\
 $localip\
@@ -51,7 +51,7 @@ $localip\
 $memory_usage\
 [|](fg:1bg)\
 $cmd_duration\
-[||](fg:1bg)\
+
 """
 palette = 'BK'
 [palettes.BK]
