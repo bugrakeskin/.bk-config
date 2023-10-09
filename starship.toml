@@ -100,13 +100,13 @@ format = '[ $user ]($style)'
 [directory]
 style = "fg:3fg bg:3bg"
 truncate_to_repo = false
-read_only = " 🔐"
+read_only = " 🔐󰌾"
 format = "[$read_only $path ]($style)"
 truncation_length = 4
 truncation_symbol = " …/ " 
 
 [directory.substitutions]
-"~" = "🔓 ~"
+"~" = "🔓 ~"
 "Documents" = "  Documents"
 "Downloads" = "   Downloads"
 "Music" = "   Music"
