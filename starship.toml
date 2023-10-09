@@ -43,12 +43,14 @@ $sudo\
 $character
 """
 right_format = """
+[||]
 $time\
+[|]
 $localip\
 $memory_usage\
 $docker_context\
 $cmd_duration\
-
+[||]
 """
 palette = 'BK'
 [palettes.BK]
