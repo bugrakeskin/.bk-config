@@ -42,28 +42,19 @@ $sudo\
 
 $character
 """
-
 right_format = """
-[](fg:1bg)\
-[  ](fg:white bg:1bg)\
-[](fg:1bg bg:3bg)\
 $time\
 $localip\
 $memory_usage\
 $docker_context\
 $cmd_duration\
-[](fg:3bg bg:1bg)\
-[](fg:1bg)\
-
-
-
 
 """
 palette = 'BK'
 [palettes.BK]
 
 1bg = '#BA7333'
-1fg = '#FCF3E7'
+1fg = '#49515A'
 
 2bg = '#37323E'
 2fg = '#FCF3E7'
