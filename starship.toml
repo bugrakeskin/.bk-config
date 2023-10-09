@@ -43,7 +43,7 @@ $sudo\
 $character
 """
 right_format = """
-[🟠](fg:seperator)\
+[ℹ️ ](fg:seperator)\
 $time\
 [ | ](fg:seperator)\
 $localip\
