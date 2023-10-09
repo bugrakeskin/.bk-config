@@ -50,8 +50,6 @@ $localip\
 [|](fg:1bg)\
 $memory_usage\
 [|](fg:1bg)\
-$docker_context\
-[|](fg:1bg)\
 $cmd_duration\
 [||](fg:1bg)\
 """
