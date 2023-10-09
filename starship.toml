@@ -3,7 +3,7 @@ add_newline = false
 format = """
 
 [](fg:1bg)\
-[  ](fg:seperator bg:1bg)\
+[  ](fg:1fg bg:1bg)\
 [](fg:1bg bg:2bg)\
 
 $username\
@@ -57,7 +57,7 @@ palette = 'BK'
 [palettes.BK]
 
 1bg = '#8EC1D6'
-1fg = '#E8E2D8'
+1fg = '#263141'
 
 2bg = '#263141'
 2fg = '#E8E2D8'
