@@ -61,7 +61,7 @@ $cmd_duration\
 """
 palette = 'BK'
 [palettes.BK]
-osbg = '#39311D'
+osbg = '#4C4533'
 osfg = '#C4B6B6'
 hnbg = '#AC7088'
 hnfg = '#39311D'
