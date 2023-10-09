@@ -69,20 +69,20 @@ palette = 'BK'
 2fg = '#FCF3E7'
 
 3bg = '#EDBC81'
-3fg = '#FCF3E7'
+3fg = '#49515A'
 
 4bg = '#6D6A75'
-4fg = '#FCF3E7'
+4fg = '#49515A'
 
 5bg = '#A8A5B1'
-5fg = '#39311D'
+5fg = '#49515A'
 
 6bg = '#DAD5E3'
-6fg = '#ECE8DD'
+6fg = '#49515A'
 
-rightbg = 'none'
-rightfg = '#EEE3CB'
-iconcolor = '#F7B633'
+rightbg = 'DAD5E3'
+rightfg = '#49515A'
+iconcolor = '#BA7333'
 
 
 continuation_prompt = "[](green)"
@@ -143,24 +143,24 @@ format = '[$all_status$ahead_behind ]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:3fg bg:3bg"
+
 format = '[ $time ]($style)'
 
 [localip]
 ssh_only = false
-style = "fg:3fg bg:3bg"
+
 format = '[ $localipv4 ]($style)'
 disabled = false
 
 [cmd_duration]
-style = "fg:3fg bg:3bg"
+
 format = '[ ⌛ $duration ]($style)'
 
 [memory_usage]
 disabled = false
 threshold = -1
 symbol = '🅡'
-style = "fg:3fg bg:3bg"
+
 format = '[ $symbol $ram(:$swap)]($style)'
 
 
