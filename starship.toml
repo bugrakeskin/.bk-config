@@ -56,19 +56,19 @@ $cmd_duration\
 palette = 'BK'
 [palettes.BK]
 
-1bg = '#695252'
+1bg = '#8EC1D6'
 1fg = '#E8E2D8'
 
-2bg = '#272121'
+2bg = '#263141'
 2fg = '#E8E2D8'
 
-3bg = '#695252'
+3bg = '#3D4B5F'
 3fg = '#E8E2D8'
 
-4bg = '#BFA9A9'
+4bg = '#8799AF'
 4fg = '#272121'
 
-5bg = '#E0CCCC'
+5bg = '#CBD5E1'
 5fg = '#272121'
 
 6bg = '#FFFFFF'
