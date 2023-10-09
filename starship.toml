@@ -38,7 +38,7 @@ $rust\
 $scala\
 $shell\
 $sudo\
-[](fg:6bg)\
+[ ](fg:6bg)\
 
 $character
 """
