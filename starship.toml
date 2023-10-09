@@ -135,19 +135,16 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:rightfg bg:rightbg"
-symbol ='🕰️'
-format = '[$time ]($style)'
+format = '[🕰️ $time ]($style)'
 
 [localip]
 ssh_only = false
-symbol ='🔗'
 style = "fg:rightfg bg:rightbg"
-format = '[$localipv4 ]($style)'
+format = '[🔗 $localipv4 ]($style)'
 disabled = false
 
 [cmd_duration]
-symbol ='🕰️'
-format = '[$duration ]($style)'
+format = '[⌛ $duration ]($style)'
 style = "fg:rightfg bg:rightbg"
 
 [memory_usage]
