@@ -43,7 +43,7 @@ $sudo\
 $character
 """
 right_format = """
-[ℹ️ ](fg:seperator)\
+[📟 ](fg:seperator)\
 $time\
 [ | ](fg:seperator)\
 $localip\
@@ -60,10 +60,10 @@ palette = 'BK'
 1fg = '#263141'
 
 2bg = '#263141'
-2fg = '#E8E2D8'
+2fg = '#CBD5E1'
 
 3bg = '#3D4B5F'
-3fg = '#E8E2D8'
+3fg = '#CBD5E1'
 
 4bg = '#8799AF'
 4fg = '#272121'
