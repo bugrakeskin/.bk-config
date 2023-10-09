@@ -43,14 +43,14 @@ $sudo\
 $character
 """
 right_format = """
-[||]\
+[||](fg:1fg bg:1bg)\
 $time\
-[|]\
+[|](fg:1fg bg:1bg)\
 $localip\
 $memory_usage\
 $docker_context\
 $cmd_duration\
-[||]\
+[||](fg:1fg bg:1bg)\
 """
 palette = 'BK'
 [palettes.BK]
