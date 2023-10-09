@@ -43,9 +43,9 @@ $sudo\
 $character
 """
 right_format = """
-
+[🟠](fg:seperator)\
 $time\
-[ℹ️ | ](fg:seperator)\
+[ | ](fg:seperator)\
 $localip\
 [ | ](fg:seperator)\
 $memory_usage\
