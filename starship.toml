@@ -73,7 +73,7 @@ palette = 'BK'
 
 rightbg = 'DAD5E3'
 rightfg = '#DAD5E3'
-iconcolor = '#BA7333'
+iconcolor = '#F5BB00'
 
 
 continuation_prompt = "[](green)"
