@@ -135,7 +135,7 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:rightfg bg:rightbg"
-format = '[🕰️ $time ]($style)'
+format = '[🕰️  $time ]($style)'
 
 [localip]
 ssh_only = false
@@ -151,8 +151,7 @@ style = "fg:rightfg bg:rightbg"
 style = "fg:rightfg bg:rightbg"
 disabled = false
 threshold = -1
-symbol = '⚙️'
-format = '[$symbol $ram(:$swap)]($style)'
+format = '[⚙️ $ram(:$swap)]($style)'
 
 
 [docker_context]
