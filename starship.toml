@@ -43,12 +43,12 @@ $sudo\
 $character
 """
 right_format = """
-[📟 ](fg:seperator)\
+
 [{](fg:seperator)\
 $time\
-[,](fg:seperator)\
+[|](fg:seperator)\
 $localip\
-[,](fg:seperator)\
+[|](fg:seperator)\
 $memory_usage\
 $cmd_duration\
 [}](fg:seperator)\
