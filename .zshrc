@@ -4,10 +4,10 @@ figlet  -f small KubixCloud
 
 echo -e '\033[35mShell:\033[0m'
 
-echo 'ZSH with OHMYZSH framework and Starship Cross-shell Promt -v1.5.7'
-echo -e 'Theme designed & scripted by: \033[33mBuğra Keskin\033[0m - DevOps Engineer'
-echo ' KubixCloud'
-echo 'www.kubixcloud.com'
+echo 'ZSH with OHMYZSH framework and Starship Cross-shell Promt -v1.5.7, Theme designed & scripted by: \033[33mBuğra Keskin\033[0m - DevOps Engineer'
+
+echo ' KubixCloud, www.kubixcloud.com'
+
 echo
 
 # this comes from ubuntu /etc/update-motd.d
