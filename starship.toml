@@ -154,7 +154,7 @@ style = "fg:rightfg bg:rightbg"
 style = "fg:rightfg bg:rightbg"
 disabled = false
 threshold = -1
-format = '[$ram_pct $swap** (:$swap)]($style)'
+format = '[${ram}( \| ${swap})]($style)'
 
 
 [docker_context]
