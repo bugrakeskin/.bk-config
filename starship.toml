@@ -153,8 +153,8 @@ style = "fg:rightfg bg:rightbg"
 [memory_usage]
 style = "fg:rightfg bg:rightbg"
 disabled = false
-threshold = 1
-format = '[$ram(:$swap)]($style)'
+threshold = -1
+format = '[$ram_pct $swap** (:$swap)]($style)'
 
 
 [docker_context]
