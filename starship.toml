@@ -61,10 +61,10 @@ palette = 'BK'
 1fg = '#263141'
 
 2bg = '#263141'
-2fg = '#959ca8'
+2fg = '#CBD5E1'
 
 3bg = '#3D4B5F'
-3fg = '#959ca8'
+3fg = '#CBD5E1'
 
 4bg = '#8799AF'
 4fg = '#272121'
@@ -75,8 +75,8 @@ palette = 'BK'
 6bg = '#FFFFFF'
 6fg = '#272121'
 
-rightbg = '959ca8'
-rightfg = '#959ca8'
+rightbg = 'CBD5E1'
+rightfg = '#CBD5E1'
 seperator = '#F5BB00'
 
 
