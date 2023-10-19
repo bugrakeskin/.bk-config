@@ -102,13 +102,13 @@ format = '[ $user ]($style)'
 
 [directory]
 style = "fg:3fg bg:3bg"
-truncate_to_repo = true
+truncate_to_repo = false
 read_only = " "
 format = "[$read_only $path ]($style)"
 truncation_length = 4
 truncation_symbol = " .../ "
 use_os_path_sep = true
-repo_root_format = '[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) '
+
 
 [directory.substitutions]
 "~" = " ~"
