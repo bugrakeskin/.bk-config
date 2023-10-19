@@ -104,7 +104,7 @@ format = '[ $user ]($style)'
 style = "fg:3fg bg:3bg"
 truncate_to_repo = false
 read_only = " "
-format = "[$read_only $path ]($style)"
+format = "[$path]($style)[$read_only]($read_only_style) "
 truncation_length = 4
 truncation_symbol = " …/ " 
 
