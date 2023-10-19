@@ -44,9 +44,8 @@ $character
 """
 right_format = """
 
-
-$time\
 [ < ](fg:seperator)\
+$time\
 [ | ](fg:seperator)\
 $localip\
 [ | ](fg:seperator)\
