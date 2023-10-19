@@ -46,11 +46,13 @@ right_format = """
 
 
 $time\
-[/](fg:seperator)\
+[ < ](fg:seperator)\
+[ | ](fg:seperator)\
 $localip\
-[/](fg:seperator)\
+[ | ](fg:seperator)\
 $memory_usage\
 $cmd_duration\
+[ > ](fg:seperator)\
 
 """
 palette = 'BK'
