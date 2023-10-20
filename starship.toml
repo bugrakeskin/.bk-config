@@ -44,14 +44,14 @@ $character
 """
 right_format = """
 
-[ < ](fg:seperator)\
+
 $time\
 [ - ](fg:seperator)\
 $localip\
 [ - ](fg:seperator)\
 $memory_usage\
 $cmd_duration\
-[ > ](fg:seperator)\
+
 
 """
 palette = 'BK'
