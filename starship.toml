@@ -46,9 +46,9 @@ right_format = """
 
 [ < ](fg:seperator)\
 $time\
-[ | ](fg:seperator)\
+[ - ](fg:seperator)\
 $localip\
-[ | ](fg:seperator)\
+[ - ](fg:seperator)\
 $memory_usage\
 $cmd_duration\
 [ > ](fg:seperator)\
@@ -141,12 +141,12 @@ format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:rightfg bg:rightbg"
-format = '[$time]($style)'
+format = '[ $time]($style)'
 
 [localip]
 ssh_only = false
 style = "fg:rightfg bg:rightbg"
-format = '[$localipv4]($style)'
+format = '[ $localipv4]($style)'
 disabled = false
 
 [cmd_duration]
