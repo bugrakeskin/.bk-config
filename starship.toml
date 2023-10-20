@@ -46,9 +46,9 @@ right_format = """
 
 
 $time\
-[ - ](fg:seperator)\
+[|](fg:seperator)\
 $localip\
-[ - ](fg:seperator)\
+[|](fg:seperator)\
 $memory_usage\
 $cmd_duration\
 
@@ -157,7 +157,7 @@ style = "fg:rightfg bg:rightbg"
 style = "fg:rightfg bg:rightbg"
 disabled = false
 threshold = -1
-format = '[( $ram_pct:Ram Using )]($style)'
+format = '[(Ram Using:$ram_pct )]($style)'
 
 
 [docker_context]
