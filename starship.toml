@@ -157,7 +157,7 @@ style = "fg:rightfg bg:rightbg"
 style = "fg:rightfg bg:rightbg"
 disabled = false
 threshold = -1
-format = '[(Memory Used: $ram_pct)]($style)'
+format = '[( $ram_pct:Ram Using )]($style)'
 
 
 [docker_context]
