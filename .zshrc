@@ -36,14 +36,14 @@ echo -e '\033[35mShortcuts:\033[0m'
 echo '+-------------+----------------------------------+        +-------------+----------------------------------+'
 echo '| Command     |               Info               |        | Command     |               Info               |'
 echo '+-------------+----------------------------------+        +-------------+----------------------------------+'
-echo '| -c          | Clear Screen                     |        | -yabs       | bench script                     |'
-echo '| -shut       | Shutdown                         |        | -dp         | docker ps                        |'
-echo '| -reboot     | Reboot                           |        | -dcu        | docker compose up                |'
-echo '| -mkcd       | Create folder & cd in            |        | -dcd        | docker compose down              |'
+echo '| -c          | clear screen                     |        | -yabs       | bench script                     |'
+echo '| -shut       | shutdown now                     |        | -dp         | docker ps                        |'
+echo '| -reboot     | reboot                           |        | -dcu        | docker compose up -d             |'
+echo '| -mkcd       | create folder & cd in            |        | -dcd        | docker compose down              |'
 echo '| -rdir       | sudo rm -rf                      |        | -treeh      | List Folder Tree view with sizes |'
 echo '| -up         | Update & Upgrade & A.remove      |        | -ct         | Colortail -f                     |'
-echo '| -agud       | Update & Dist-upgrade            |        | -caty       | Color cat                        |'
-echo '| -agar       | Autoremove                       |        | -findbig    | Find Biggest file in folder      |'
+echo '| -agud       | Update & Dist-upgrade            |        | -xcat       | Color cat                        |'
+echo '| -agar       | Autoremove                       |        | -fb         | Find Biggest file in folder      |'
 echo '| -sc-restart | sudo systemctl restart           |        | -navi       | Command Syntax Search            |'
 echo '| -sc-status  | sudo systemctl status            |        +-------------+----------------------------------+'
 echo '| -ul         | exa -l --icons -a -g             |'
@@ -82,7 +82,7 @@ source $ZSH/oh-my-zsh.sh
 alias c="clear"
 alias m="sudo micro"
 alias shut="sudo shutdown now"
-alias findbig="sudo du -hsx * | sort -rh | head -10"
+alias fb="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h"
 alias exitto='echo "Good-Bye!, Press <z> for ZHS" && exit'
 alias update="cd '$HOME/github/.bk-config/' && git pull -q 2>&1 | cat && cd '$HOME' && exitto"
@@ -92,9 +92,9 @@ alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
 alias rdir='sudo rm -rf'
 alias dp='docker ps'
 alias up='sudo apt update -y && sudo apt dist-upgrade -y && sudo apt autoremove -y'
-alias caty='pygmentize -g -O style=zenburn'
+alias xcat='pygmentize -g -O style=zenburn'
 alias ct='sudo colortail -f'
-alias dcu='docker compose up'
+alias dcu='docker compose up -d'
 alias dcd='docker compose down'
 alias ul='exa -l --icons -a -g'
 alias kl='exa --icons -a -g' 
