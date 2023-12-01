@@ -41,12 +41,12 @@ echo '| -shut       | shutdown now                     |        | -dp         | 
 echo '| -reboot     | reboot                           |        | -dcu        | docker compose up -d             |'
 echo '| -mkcd       | create folder & cd in            |        | -dcd        | docker compose down              |'
 echo '| -rdir       | sudo rm -rf                      |        | -treeh      | List Folder Tree view with sizes |'
-echo '| -up         | Update & Upgrade & A.remove      |        | -ct         | Colortail -f                     |'
-echo '| -agud       | Update & Dist-upgrade            |        | -xcat       | Color cat                        |'
-echo '| -agar       | Autoremove                       |        | -fb         | Find Biggest file in folder      |'
-echo '| -sc-restart | sudo systemctl restart           |        | -navi       | Command Syntax Search            |'
-echo '| -sc-status  | sudo systemctl status            |        +-------------+----------------------------------+'
-echo '| -ul         | exa -l --icons -a -g             |'
+echo '| -up         | Update & Upgrade & A.remove      |        | -ct         | colortail -f                     |'
+echo '| -agud       | Update & Dist-upgrade            |        | -xcat       | color cat                        |'
+echo '| -agar       | Autoremove                       |        | -fb         | find biggest file in folder      |'
+echo '| -sc-restart | sudo systemctl restart           |        | -navi       | command syntax search            |'
+echo '| -sc-status  | sudo systemctl status            |        | -syslog     | colortail syslog file            |'
+echo '| -ul         | exa -l --icons -a -g             |        +-------------+----------------------------------+'
 echo '| -kl         | exa --icons -a -g                |'
 echo '+-------------+----------------------------------+'
 
@@ -97,7 +97,8 @@ alias ct='sudo colortail -f'
 alias dcu='docker compose up -d'
 alias dcd='docker compose down'
 alias ul='exa -l --icons -a -g'
-alias kl='exa --icons -a -g' 
+alias kl='exa --icons -a -g'
+alias syslog='ct /var/log/syslog'
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
