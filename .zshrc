@@ -80,7 +80,7 @@ export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 source $ZSH/oh-my-zsh.sh
 
 alias c="clear"
-alias m="sudo micro"
+alias m="micro"
 alias shut="sudo shutdown now"
 alias fb="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h"
