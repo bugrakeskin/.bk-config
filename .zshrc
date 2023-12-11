@@ -51,7 +51,7 @@ echo '| -kl         | exa --icons -a -g                |'
 echo '+-------------+----------------------------------+'
 
 # Prompt changes 1-2-3-4-5
-echo '\e[5 q' 
+echo '\e[3 q' 
 
 # Add a line before the output
 preexec() { print "" }
@@ -91,7 +91,7 @@ alias reboot="sudo reboot"
 alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
 alias rdir='sudo rm -rf'
 alias dp='docker ps'
-alias up='sudo apt update -y && sudo apt dist-upgrade -y && sudo apt autoremove -y'
+alias up='sudo apt update -y && sudo apt dist-upgrade -y && sudo apt autoremove --purge && sudo apt-get clean -y'
 alias xcat='pygmentize -g -O style=zenburn'
 alias ct='sudo colortail -f'
 alias dcu='docker compose up -d'
@@ -99,6 +99,12 @@ alias dcd='docker compose down'
 alias ul='exa -l --icons -a -g'
 alias kl='exa --icons -a -g'
 alias syslog='ct /var/log/syslog'
+alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
+alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
+alias nice='bat --paging=never -l log'
+
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+man 2 select
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
