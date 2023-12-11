@@ -42,7 +42,7 @@ echo '| -reboot     | reboot                           |        | -dcu        | 
 echo '| -mkcd       | create folder & cd in            |        | -dcd        | docker compose down              |'
 echo '| -rdir       | sudo rm -rf                      |        | -treeh      | List Folder Tree view with sizes |'
 echo '| -up         | Update & Upgrade & A.remove      |        | -nice       | use like this:tail -f | nice     |'
-echo '| -agud       | Update & Dist-upgrade            |        
+echo '| -agud       | Update & Dist-upgrade            |        +-------------+----------------------------------+'
 echo '| -agar       | Autoremove                       |        | -fb         | find biggest file in folder      |'
 echo '| -sc-restart | sudo systemctl restart           |        | -navi       | command syntax search            |'
 echo '| -sc-status  | sudo systemctl status            |        | -syslog     | bat syslog file                  |'
