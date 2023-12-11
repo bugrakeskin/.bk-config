@@ -42,7 +42,7 @@ echo '| -reboot     | reboot                           |        | -dcu        | 
 echo '| -mkcd       | create folder & cd in            |        | -dcd        | docker compose down              |'
 echo '| -rdir       | sudo rm -rf                      |        | -treeh      | List Folder Tree view with sizes |'
 echo '| -up         | Update & Upgrade & A.remove      |        | -nice       | use like this:tail -f | nice     |'
-echo '| -agud       | Update & Dist-upgrade            |        | -xcat       | color cat                        |'
+echo '| -agud       | Update & Dist-upgrade            |        
 echo '| -agar       | Autoremove                       |        | -fb         | find biggest file in folder      |'
 echo '| -sc-restart | sudo systemctl restart           |        | -navi       | command syntax search            |'
 echo '| -sc-status  | sudo systemctl status            |        | -syslog     | bat syslog file                  |'
@@ -99,8 +99,6 @@ alias dcd='docker compose down'
 alias ul='exa -l --icons -a -g'
 alias kl='exa --icons -a -g'
 alias syslog='tail -f /var/log/syslog | nice'
-alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
-alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 alias nice='bat --paging=never -l log'
 
 
