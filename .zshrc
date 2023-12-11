@@ -51,7 +51,7 @@ echo '| -kl         | exa --icons -a -g                |'
 echo '+-------------+----------------------------------+'
 
 # Prompt changes 1-2-3-4-5
-echo '\e[3 q' 
+echo '\e[1 q' 
 
 # Add a line before the output
 preexec() { print "" }
@@ -103,8 +103,7 @@ alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
 alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 alias nice='bat --paging=never -l log'
 
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-man 2 select
+
 
 export STARSHIP_CONFIG=~/github/.bk-config/starship.toml
 eval "$(starship init zsh)"
