@@ -46,8 +46,8 @@ echo '| -agud       | Update & Dist-upgrade            |        +-------------+-
 echo '| -agar       | Autoremove                       |        | -fb         | find biggest file in folder      |'
 echo '| -sc-restart | sudo systemctl restart           |        | -navi       | command syntax search            |'
 echo '| -sc-status  | sudo systemctl status            |        | -syslog     | bat syslog file                  |'
-echo '| -ul         | exa -l --icons -a -g             |        +-------------+----------------------------------+'
-echo '| -kl         | exa --icons -a -g                |'
+echo '| -f          | exa long list                    |        +-------------+----------------------------------+'
+echo '| -ls         | short list                       |'
 echo '+-------------+----------------------------------+'
 
 # Prompt changes 1-2-3-4-5
