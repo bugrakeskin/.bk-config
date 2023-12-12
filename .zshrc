@@ -50,7 +50,7 @@ echo '| -f          | exa long list                    |        +-------------+-
 echo '| -ls         | short list                       |'
 echo '+-------------+----------------------------------+'
 
-echo 'bol print'
+
 # Prompt changes 1-2-3-4-5
 echo '\e[1 q' 
 
@@ -73,7 +73,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME=""
 
 # add plugins
-plugins=( z  extract zsh-interactive-cd ubuntu history  command-not-found systemd  safe-paste thefuck zsh-syntax-highlighting bol )
+plugins=( z  extract zsh-interactive-cd ubuntu history  command-not-found systemd  safe-paste thefuck zsh-syntax-highlighting  )
 
 #export dump files
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST 
