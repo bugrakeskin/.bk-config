@@ -72,7 +72,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME=""
 
 # add plugins
-plugins=( z  extract sudo zsh-interactive-cd ubuntu history  command-not-found systemd  safe-paste )
+plugins=( z  extract sudo zsh-interactive-cd ubuntu history  command-not-found systemd  safe-paste thefuck )
 
 #export dump files
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST 
