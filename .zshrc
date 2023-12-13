@@ -59,11 +59,9 @@ host=$(< /etc/hostname)
 sh=$(basename $SHELL)
 uptime=$(uptime)
 
-echo -e "   I'am: $iam@$host"
-echo -e "   Shell: $sh      "
-echo -e "   Kernel: $kernel "
-echo -e "   OS: $os         "
-echo -e "   Uptime: $uptime "
+echo -e "  I'am: $iam@$host"
+echo -e "  Kernel: $kernel "
+echo -e "  Uptime: $uptime "
 
 # Prompt changes 1-2-3-4-5
 echo '\e[1 q' 
