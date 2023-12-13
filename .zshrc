@@ -50,7 +50,7 @@ echo '| -f          | exa long list                    |        +-------------+-
 echo '| -ls         | short list                       |'
 echo '+-------------+----------------------------------+'
 
-
+sf
 
 # Prompt changes 1-2-3-4-5
 echo '\e[1 q' 
