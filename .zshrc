@@ -1,3 +1,11 @@
+# INFO
+iam=$(whoami)
+os=$(source /etc/os-release; echo $NAME)
+kernel=$(uname -r)
+host=$(< /etc/hostname)
+sh=$(basename $SHELL)
+uptime=$(uptime)
+
 # adds figlet banner
 figlet  -f small Welcome to
 figlet  -f small KubixCloud
@@ -51,13 +59,7 @@ echo '| -ls         | short list                       |'
 echo '+-------------+----------------------------------+'
 
 # sf (fetch alternative)
-
-iam=$(whoami)
-os=$(source /etc/os-release; echo $NAME)
-kernel=$(uname -r)
-host=$(< /etc/hostname)
-sh=$(basename $SHELL)
-uptime=$(uptime)
+echo
 echo -e "  I'am: $iam@$host"
 
 # Prompt changes 1-2-3-4-5
