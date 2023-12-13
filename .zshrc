@@ -30,7 +30,7 @@ stamp="/var/lib/update-notifier/updates-available"
 
 find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/update-notifier/notify-updates-outdated
 ### Finish motd
-
+echo -e "  Uptime: $uptime "
 #Shortcuts
 echo -e '\033[35mShortcuts:\033[0m'
 echo '+-------------+----------------------------------+        +-------------+----------------------------------+'
@@ -58,10 +58,7 @@ kernel=$(uname -r)
 host=$(< /etc/hostname)
 sh=$(basename $SHELL)
 uptime=$(uptime)
-
 echo -e "  I'am: $iam@$host"
-echo -e "  Kernel: $kernel "
-echo -e "  Uptime: $uptime "
 
 # Prompt changes 1-2-3-4-5
 echo '\e[1 q' 
