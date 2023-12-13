@@ -50,7 +50,20 @@ echo '| -f          | exa long list                    |        +-------------+-
 echo '| -ls         | short list                       |'
 echo '+-------------+----------------------------------+'
 
-sf
+# sf (fetch alternative)
+
+iam=$(whoami)
+os=$(source /etc/os-release; echo $NAME)
+kernel=$(uname -r)
+host=$(< /etc/hostname)
+sh=$(basename $SHELL)
+uptime=$(uptime)
+
+echo -e "   I'am: $iam@$host"
+echo -e "   Shell: $sh      "
+echo -e "   Kernel: $kernel "
+echo -e "   OS: $os         "
+echo -e "   Uptime: $uptime "
 
 # Prompt changes 1-2-3-4-5
 echo '\e[1 q' 
