@@ -50,7 +50,8 @@ echo '| -f          | exa long list                    |        +-------------+-
 echo '| -ls         | short list                       |'
 echo '+-------------+----------------------------------+'
 
-cat screenfetch | pr -2 -t -s
+screenfetch
+pr --output-tabs=' 1' -2 -t tmp1 
 
 # Prompt changes 1-2-3-4-5
 echo '\e[1 q' 
