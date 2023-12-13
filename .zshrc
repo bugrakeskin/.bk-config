@@ -1,7 +1,4 @@
 # adds figlet banner
-left_column=("
-
-
 figlet  -f small Welcome to
 figlet  -f small KubixCloud
 
@@ -52,27 +49,8 @@ echo '| -sc-status  | sudo systemctl status            |        | -syslog     | 
 echo '| -f          | exa long list                    |        +-------------+----------------------------------+'
 echo '| -ls         | short list                       |'
 echo '+-------------+----------------------------------+'
-")
 
-right_column=("screenfetch")
-
-# Determine the maximum length of strings in each column
-max_left_length=$(printf "%s\n" "${left_column[@]}" | awk '{ print length }' | sort -n | tail -n 1)
-max_right_length=$(printf "%s\n" "${right_column[@]}" | awk '{ print length }' | sort -n | tail -n 1)
-
-# Function to print a line with the specified left and right columns
-print_line() {
-    printf "%-${max_left_length}s %s\n" "$1" "$2"
-}
-
-# Print the header
-print_line "Left Column" "Right Column"
-print_line "------------" "-------------"
-
-# Print each row
-for ((i = 1; i <= ${#left_column[@]}; i++)); do
-    print_line "${left_column[$i]}" "${right_column[$i]}"
-done
+screenfetch
 
 
 # Prompt changes 1-2-3-4-5
