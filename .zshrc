@@ -41,7 +41,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 
 #Shortcuts
 echo -e '\033[35mShortcuts:\033[0m'
-echo -e 'Update & auto remove:{\e[32mupdate\e[0m} | Color Tail:{\e[32mct\e[0m} | Color CAT:{\e[32mxcat\e[0m} | List(short):{\e[32mls\e[0m} | List(long):{\e[32ml\e[0m} | SUDO-Micro Editor:{\e[32msm-m\e[0m} | docker ps:{\e[32mdp\e[0m} | docker compose up/down:{\e[32mdcu/dcd\e[0m} | '
+echo -e ' Shutdown:{\e[32mshut\e[0m} | Reboot:{\e[32mreboot\e[0m} | Update & auto remove:{\e[32mupdate\e[0m} | Clear:{\e[32mc\e[0m} | List(short/long):{\e[32mls/l\e[0m} | Create Folder & enter:{\e[32mmkcd\e[0m} | Delete Folder:{\e[32mrdir\e[0m} | docker ps:{\e[32mdp\e[0m} | docker compose up/down:{\e[32mdcu/dcd\e[0m} | Update BKshell:{\e[32mzup\e[0m} | Color Tail:{\e[32mct\e[0m} | Color CAT:{\e[32mxcat\e[0m} | SUDO/Micro Editor:{\e[32msm/m\e[0m} | Show big size:{\e[32mfb\e[0m} | '
 
 echo
 echo -e "  Uptime:$uptime "
@@ -80,7 +80,6 @@ alias m="micro"
 alias sm="sudo micro"
 alias shut="sudo shutdown now"
 alias fb="sudo du -hsx * | sort -rh | head -10"
-alias treeh="tree --du -h"
 alias exitto='echo "Good-Bye!, Press <z> for ZHS" && exit'
 alias zup="cd '$HOME/github/.bk-config/' && git pull -q 2>&1 | cat && cd '$HOME' && exitto"
 alias yabs="curl -sL yabs.sh | bash -s -- -fg"
