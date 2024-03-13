@@ -40,11 +40,6 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 ### Finish motd
 echo -e "  Uptime:$uptime "
 
-
-# sf (fetch alternative)
-echo
-echo -e "  I'am: \033[35m$iam@$host:\033[0m"
-
 # Prompt changes 1-2-3-4-5
 echo '\e[1 q' 
 
