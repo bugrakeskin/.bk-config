@@ -38,6 +38,10 @@ stamp="/var/lib/update-notifier/updates-available"
 
 find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/update-notifier/notify-updates-outdated
 ### Finish motd
+#Shortcuts
+echo -e '\033[35mShortcuts:\033[0m'
+echo -e 'Update & auto remove : "update" | Color Tail : "ct" | '
+echo
 echo -e "  Uptime:$uptime "
 
 # Prompt changes 1-2-3-4-5
@@ -87,7 +91,7 @@ alias xcat='pygmentize -g -O style=zenburn'
 alias ct='sudo colortail -f'
 alias dcu='docker compose up -d'
 alias dcd='docker compose down'
-alias f='exa -l --icons -a -g -h  -s size -r '
+alias l='exa -l --icons -a -g -h  -s size -r '
 alias ls='exa --icons -a -g'
 
 
