@@ -38,26 +38,8 @@ stamp="/var/lib/update-notifier/updates-available"
 
 find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/update-notifier/notify-updates-outdated
 ### Finish motd
-echo -e " Uptime: $uptime "
-echo
-#Shortcuts
-echo -e '\033[35mShortcuts:\033[0m'
-echo '+-------------+----------------------------------+        +-------------+----------------------------------+'
-echo '| Command     |               Info               |        | Command     |               Info               |'
-echo '+-------------+----------------------------------+        +-------------+----------------------------------+'
-echo '| -c          | clear screen                     |        | -yabs       | bench script                     |'
-echo '| -shut       | shutdown now                     |        | -dp         | docker ps                        |'
-echo '| -reboot     | reboot                           |        | -dcu        | docker compose up -d             |'
-echo '| -mkcd       | create folder & cd in            |        | -dcd        | docker compose down              |'
-echo '| -rdir       | sudo rm -rf                      |        | -treeh      | List Folder Tree view with sizes |'
-echo '| -up         | Update & Upgrade & A.remove      |        | -nice       | use like this:tail -f | nice     |'
-echo '| -agud       | Update & Dist-upgrade            |        +-------------+----------------------------------+'
-echo '| -agar       | Autoremove                       |        | -fb         | find biggest file in folder      |'
-echo '| -sc-restart | sudo systemctl restart           |        | -navi       | command syntax search            |'
-echo '| -sc-status  | sudo systemctl status            |        | -syslog     | bat syslog file                  |'
-echo '| -f          | exa long list                    |        +-------------+----------------------------------+'
-echo '| -ls         | short list                       |'
-echo '+-------------+----------------------------------+'
+echo -e "  Uptime:$uptime "
+
 
 # sf (fetch alternative)
 echo
@@ -85,7 +67,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME=""
 
 # add plugins
-plugins=( z  extract zsh-interactive-cd ubuntu history  command-not-found systemd  safe-paste thefuck zsh-syntax-highlighting  )
+plugins=( z  extract zsh-interactive-cd ubuntu history  command-not-found systemd sudo safe-paste zsh-syntax-highlighting  )
 
 #export dump files
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST 
@@ -94,6 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias c="clear"
 alias m="micro"
+alias sm="sudo micro"
 alias shut="sudo shutdown now"
 alias fb="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h"
