@@ -12,9 +12,9 @@ figlet  -f small KubixCloud
 
 echo -e '\033[35mShell:\033[0m'
 
-echo 'ZSH with OHMYZSH framework and Starship Cross-shell Promt -v1.5.7, Theme designed & scripted by: \033[33mBuğra Keskin\033[0m - DevOps Engineer'
+echo 'ZSH with OHMYZSH framework and Starship Cross-shell Promt, Theme designed & scripted by: \033[33mBuğra Keskin\033[0m - DevOps Engineer'
 
-echo ' KubixCloud, www.kubixcloud.com'
+echo '  KubixCloud, www.kubixcloud.com'
 
 echo
 
