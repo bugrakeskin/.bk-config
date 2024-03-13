@@ -41,7 +41,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 
 #Shortcuts
 echo -e '\033[35mShortcuts:\033[0m'
-echo -e '\e[4mUpdate & auto remove:\033[24m {\e[32mupdate\e[0m} | \e[4mColor Tail:\033[24m {ct} | '
+echo -e 'Update & auto remove:{\e[32mupdate\e[0m}|Color Tail:{\e[32mct\e[0m}| '
 
 echo
 echo -e "  Uptime:$uptime "
