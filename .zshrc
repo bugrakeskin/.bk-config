@@ -41,7 +41,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 
 #Shortcuts
 echo -e '\033[35mShortcuts:\033[0m'
-echo -e 'Update & auto remove:{\e[32mupdate\e[0m}|Color Tail:{\e[32mct\e[0m}| '
+echo -e 'Update & auto remove:{\e[32mupdate\e[0m} | Color Tail:{\e[32mct\e[0m} | Color CAT:{\e[32mxcat\e[0m} | List(short):{\e[32mls\e[0m} | List(long):{\e[32ml\e[0m} | SUDO/Micro Editor:{\e[32sm/m\e[0m} | '
 
 echo
 echo -e "  Uptime:$uptime "
