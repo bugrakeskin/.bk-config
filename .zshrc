@@ -38,9 +38,11 @@ stamp="/var/lib/update-notifier/updates-available"
 
 find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/update-notifier/notify-updates-outdated
 ### Finish motd
+
 #Shortcuts
 echo -e '\033[35mShortcuts:\033[0m'
-echo -e 'Update & auto remove : "update" | Color Tail : "ct" | '
+echo -e '\e[4mUpdate & auto remove : "update" | Color Tail : "ct" | '
+
 echo
 echo -e "  Uptime:$uptime "
 
