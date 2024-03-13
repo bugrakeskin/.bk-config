@@ -76,21 +76,21 @@ alias shut="sudo shutdown now"
 alias fb="sudo du -hsx * | sort -rh | head -10"
 alias treeh="tree --du -h"
 alias exitto='echo "Good-Bye!, Press <z> for ZHS" && exit'
-alias update="cd '$HOME/github/.bk-config/' && git pull -q 2>&1 | cat && cd '$HOME' && exitto"
+alias zup="cd '$HOME/github/.bk-config/' && git pull -q 2>&1 | cat && cd '$HOME' && exitto"
 alias yabs="curl -sL yabs.sh | bash -s -- -fg"
 alias reboot="sudo reboot"
 alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
 alias rdir='sudo rm -rf'
 alias dp='docker ps'
-alias up='sudo apt update -y && sudo apt dist-upgrade -y && sudo apt autoremove --purge && sudo apt-get clean -y'
+alias update='sudo apt update -y && sudo apt dist-upgrade -y && sudo apt autoremove --purge && sudo apt-get clean -y'
 alias xcat='pygmentize -g -O style=zenburn'
 alias ct='sudo colortail -f'
 alias dcu='docker compose up -d'
 alias dcd='docker compose down'
 alias f='exa -l --icons -a -g -h  -s size -r '
 alias ls='exa --icons -a -g'
-alias syslog='tail -f /var/log/syslog | nice'
-alias nice='bat --paging=never -l log'
+
+
 
 
 
